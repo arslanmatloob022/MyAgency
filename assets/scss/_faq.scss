@@ -1,0 +1,248 @@
+.faq-wrapper {
+
+    .faq-area {
+
+        .faq-item {
+            @include flex;
+            gap: 20px;
+            margin-bottom: 20px;
+
+            .icon {
+                width: 57px;
+                height: 57px;
+                line-height: 57px;
+                border-radius: 100px;
+                text-align: center;
+                background-color: $bg-color;
+                font-size: 20px;
+                color: $header-color;
+            }
+
+            .content {
+                h5 {
+                    margin-bottom: 10px;
+                }
+
+                h6 {
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: $text-color;
+
+                    a {
+                        color: $text-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .faq-image {
+        position: relative;
+        text-align: center;
+        margin-right: 40px;
+
+        @include breakpoint (max-xl) {
+            margin-right: 0;
+        }
+
+        .radius-shape {
+            position: absolute;
+            left: 50%;
+            top: 55%;
+            transform: translate(-50%,-50%);
+            z-index: -1;
+           
+
+            img {
+                width: initial;
+                height: initial;
+            }
+        }
+    }
+
+    .faq-items {
+
+        .accordion {
+            margin-top: 35px;
+
+            .accordion-item {
+                border: none;
+                border-radius: 0px;
+                margin-bottom: 35px;
+                background: transparent;
+    
+                h2 {
+                    button {
+                        font-size: 18px;
+                        line-height: 1;
+                        font-weight: 500;
+                        box-shadow: none;
+                        border-radius: 0 !important;
+                        padding: 0;
+                        font-family: $heading-font;
+                        color: $header-color;
+    
+                        @include breakpoint (max-sm){
+                            font-size: 17px;
+                        }
+                    }
+                }
+                .accordion-body {
+                   padding-top: 15px !important;
+                   padding: 0;
+    
+                    p {
+                        color: $text-color;
+                        font-size: 1x;
+                        line-height: 32px;
+                        font-weight: 400;
+                        font-size: 14px;
+    
+                        @include breakpoint(max-sm) {
+                            width: 100%;
+                            font-size: 14px;
+                            line-height: 28px;
+                        }
+                    }
+                }
+            }
+            .accordion-button {
+                background-color: transparent;
+                color: $header-color;
+    
+                &::after {
+                    display: none;
+                }
+                &::before {
+                    position: absolute;
+                    content: "\2b";
+                    font-family: "Font Awesome 6 Pro";
+                    font-weight: 700;
+                    top: -7px;
+                    right: 0;
+                    font-size: 16px;
+                    text-align: center;
+                    @include transition;
+                    color: $white;
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    border-radius: 50%;
+                    background-color: $theme-color-3;
+                }
+            }
+            .accordion-button.collapsed {
+                background-color: transparent;
+                color: $header-color;
+                
+                &::before {
+                    content: "\f068";
+                    color: $header-color;
+                    background-color: #F4F4F4;
+                }
+            }
+        }
+    }
+}
+
+.faq-wrapper-3 {
+    .faq-image {
+        margin-top: 30px;
+
+        img {
+            @include imgw;
+        }
+    }
+
+    .faq-items {
+        margin-left: 50px;
+        margin-top: 30px;
+
+        @include breakpoint (max-xl){
+            margin-left: 0;
+        }
+
+        .accordion {
+
+            .accordion-item {
+                border-radius: 20px;
+                border: 1px solid #F4F4F4;
+                margin-bottom: 25px;
+                background: transparent;
+                padding: 19px 30px;
+    
+                h2 {
+                    button {
+                        font-size: 18px;
+                        line-height: 1;
+                        font-weight: 500;
+                        box-shadow: none;
+                        border-radius: 0 !important;
+                        padding: 0;
+                        font-family: $heading-font;
+                        color: $header-color;
+    
+                        @include breakpoint (max-sm){
+                            font-size: 17px;
+                        }
+                    }
+                }
+                .accordion-body {
+                   padding-top: 15px !important;
+                   padding: 0;
+    
+                    p {
+                        color: $text-color;
+                        font-size: 1x;
+                        line-height: 32px;
+                        font-weight: 400;
+                        font-size: 14px;
+    
+                        @include breakpoint(max-sm) {
+                            width: 100%;
+                            font-size: 14px;
+                            line-height: 28px;
+                        }
+                    }
+                }
+            }
+            .accordion-button {
+                background-color: transparent;
+                color: $header-color;
+    
+                &::after {
+                    display: none;
+                }
+                &::before {
+                    position: absolute;
+                    content: "\2b";
+                    font-family: "Font Awesome 6 Pro";
+                    font-weight: 700;
+                    top: -7px;
+                    right: 0;
+                    font-size: 16px;
+                    text-align: center;
+                    @include transition;
+                    color: $white;
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    border-radius: 50%;
+                    background-color: $theme-color;
+                }
+            }
+            .accordion-button.collapsed {
+                background-color: transparent;
+                color: $header-color;
+                
+                &::before {
+                    content: "\f068";
+                    color: $header-color;
+                    background-color: #F4F4F4;
+                }
+            }
+        }
+    }
+}

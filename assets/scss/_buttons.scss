@@ -1,0 +1,132 @@
+
+.main-button {
+    position: relative;
+    @include flex;
+
+    .theme-btn {
+        position: relative;
+        z-index: 2;
+        display: inline-block;
+        border: none;
+        text-transform: capitalize;
+        text-align: center;
+        background-color: $theme-color;
+        color: $white;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1;
+        padding: 19.5px 35px;
+        border-radius: 999px;
+        font-family: "Manrope", serif;
+    
+        @include breakpoint (max-sm){
+            padding: 18px 30px;
+            font-size: 14px;
+        }
+    }
+    
+    .arrow-btn {
+        width: 53px;
+        height: 53px;
+        line-height: 53px;
+        text-align: center;
+        background: $theme-color;
+        color: $white;
+        border-radius: 999px;
+        display: inline-block;
+        @include transition;
+        
+        i {
+            font-size: 16px;
+            transform: rotate(-45deg);
+            display: inline-block;
+            @include transition;
+        }
+
+        &:hover{
+            background: $header-color;
+            color: $white;
+        }
+    
+    }
+
+    &.bg-2 {
+       .theme-btn, .arrow-btn {
+            background-color: $theme-color-2;
+            color: $header-color;
+       }
+
+       &:hover {
+            .theme-btn, .arrow-btn {
+                color: $white;
+            }
+       }
+    }
+
+    &.bg-3 {
+        .theme-btn, .arrow-btn {
+             background-color: $theme-color-3;
+             color: $white;
+        }
+ 
+        &:hover {
+             .theme-btn, .arrow-btn {
+                 color: $white;
+             }
+        }
+     }
+
+    &:hover {
+        .theme-btn,.arrow-btn {
+            background-color: $header-color;
+        }
+
+        .arrow-btn {
+            i {
+                transform: rotate(0);
+            }
+        }
+    }
+}
+.theme-btn {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    border: none;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: $theme-color;
+    color: $white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 19.5px 35px;
+    border-radius: 10px;
+    font-family: "Manrope", serif;
+    @include transition;
+
+    @include breakpoint (max-sm){
+        padding: 18px 30px;
+        font-size: 14px;
+    }
+
+    &:hover {
+        background-color: $header-color;
+    }
+}
+.link-btn {
+    text-transform: uppercase;
+    color: $text-color;
+    font-weight: 500;
+    display: inline-block;
+    font-size: 12px;
+
+    i {
+        margin-right: 5px;
+    }
+
+    &:hover {
+        color: $header-color;
+    }
+
+}

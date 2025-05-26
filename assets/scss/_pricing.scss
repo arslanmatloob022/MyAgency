@@ -1,0 +1,349 @@
+.pricing-box {
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    .nav {
+		border: none;
+		margin-top: 30px;
+        
+		.nav-tabs {
+			border-bottom: 0;
+			display: flex;
+		}
+
+		.nav-link {
+			font-size: 18px;
+			font-weight: 500;
+			text-transform: capitalize;
+			border: 0;
+			border-radius: 0;
+			padding: 7px 56px;
+			position: relative;
+			background: transparent;
+			z-index: 2;
+			color: $text-color;
+			margin-bottom: 0;
+
+			&::before {
+				position: absolute;
+				content: "";
+				right: 0px;
+				top: 50%;
+				transform: translateY(-50%) translateX(50%);
+				background: $bg-color;
+				width: 75px;
+				height: 32px;
+				border-radius: 20px;
+				border: 1px solid $theme-color;
+			}
+			&::after {
+				position: absolute;
+				content: "";
+				right: -33px;
+				top: 50%;
+				transform: translateY(-50%);
+				width: 24px;
+				height: 24px;
+				border-radius: 50%;
+				background: $theme-color;
+				z-index: 1;
+			}
+			&:first-child {
+				padding-left: 0;
+			}
+			&:last-child {
+				padding-right: 0;
+				&::after {
+					display: none;
+				}
+				&::before {
+					display: none;
+				}
+			}
+			&.active {
+				color: $header-color;
+
+				&::after {
+					right: 8px;
+				}
+			}
+		}
+	}
+}
+
+.pricing-box-items {
+    position: relative;
+    background-color: $white;
+    padding: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+
+    .circle-shape {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .pricing-header {
+        text-align: center;
+        h3 {
+            margin-bottom: 10px;
+        }
+        h2 {
+            sub {
+                font-size: 18px;
+                font-weight: 400;
+                color: #7A7A7A;
+            }
+        }
+    }
+
+    .pricing-list {
+        margin-top: 80px;
+        li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            
+            &:not(:last-child) {
+                margin-bottom: 15px;
+            }
+
+            i {
+                color: $theme-color;
+
+                &.color-2 {
+                    color: rgba(5, 9, 29, .2);
+                }
+            }
+        }
+    }
+
+    .main-button {
+        margin-top: 50px;
+        width: 100%;
+        .theme-btn {
+            background: transparent;
+            border: 1px solid $border-color;
+            color: $header-color;
+        }
+
+        .arrow-btn {
+            background: transparent;
+            border: 1px solid $border-color;
+            color: $header-color;
+        }
+
+        &:hover {
+            .theme-btn,.arrow-btn {
+                background-color: $theme-color;
+                color: $white;
+                border: 1px solid $theme-color;
+            }
+    
+            .arrow-btn {
+                i {
+                    transform: rotate(0);
+                }
+            }
+        }
+    }
+}
+
+.pricing-two__tab {
+    .nav {
+		border: none;
+		margin-top: 30px;
+        
+		.nav-tabs {
+			border-bottom: 0;
+			display: flex;
+		}
+
+		.nav-link {
+			font-size: 18px;
+			font-weight: 500;
+			text-transform: capitalize;
+			border: 0;
+			border-radius: 0;
+			padding: 7px 56px;
+			position: relative;
+			background: transparent;
+			z-index: 2;
+			color: $text-color;
+			margin-bottom: 0;
+
+			&::before {
+				position: absolute;
+				content: "";
+				right: 0px;
+				top: 50%;
+				transform: translateY(-50%) translateX(50%);
+				background: $bg-color;
+				width: 75px;
+				height: 32px;
+				border-radius: 20px;
+				border: 1px solid $theme-color;
+			}
+			&::after {
+				position: absolute;
+				content: "";
+				right: -33px;
+				top: 50%;
+				transform: translateY(-50%);
+				width: 24px;
+				height: 24px;
+				border-radius: 50%;
+				background: $theme-color;
+				z-index: 1;
+			}
+			&:first-child {
+				padding-left: 0;
+			}
+			&:last-child {
+				padding-right: 0;
+				&::after {
+					display: none;
+				}
+				&::before {
+					display: none;
+				}
+			}
+			&.active {
+				color: $header-color;
+
+				&::after {
+					right: 8px;
+				}
+			}
+		}
+	}
+}
+
+.pricing-card-items {
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid #CCC;
+    margin-top: 30px;
+
+    .pricing-header {
+        border-bottom: 1px solid #CCC;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+
+        h2 {
+            line-height: 1;
+
+            span {
+                font-size: 18px;
+                font-weight: 400;
+                color: $text-color;
+            }
+
+            b {
+                color: $theme-color;
+                font-weight: 600;
+            }
+        }
+
+        h3 {
+            font-size: 32px;
+            font-weight: 500;
+        }
+    }
+
+    .pricing-list {
+
+        li {
+            font-size: 18px;
+            color: $text-color;
+
+            &:not(:last-child) {
+                margin-bottom: 15px;
+            }
+
+            i {
+                margin-right: 8px;
+                color: $header-color;
+            }
+
+            &.style-2 {
+
+                i {
+                    color: $theme-color;
+                }
+            }
+        }
+    }
+
+    .main-button {
+        margin-top: 40px;
+
+        .theme-btn {
+            border-radius: 999px;
+            background-color: $bg-color;
+            color: $header-color;
+            padding: 20px 30px;
+        }
+
+        .arrow-btn {
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            background-color: $bg-color;
+
+            i {
+                color: $header-color;
+            }
+        }
+
+        &:hover {
+            .theme-btn,.arrow-btn {
+                background-color: $theme-color;
+                color: $white;
+            }
+    
+            .arrow-btn {
+                background: $theme-color;
+                i {
+                    color: $white;
+                }
+            }
+        }
+
+        &.style-2 {
+
+            .theme-btn {
+                background-color: $theme-color;
+                color: $white;
+            }
+    
+            .arrow-btn {
+                width: 60px;
+                height: 60px;
+                line-height: 60px;
+                text-align: center;
+                background-color: $theme-color;
+    
+                i {
+                    color: $white;
+                }
+            }
+    
+            &:hover {
+                .theme-btn,.arrow-btn {
+                    background-color: $header-color;
+                    color: $white;
+                }
+        
+                .arrow-btn {
+                    background: $header-color;
+                }
+            }
+        }
+    }
+}
