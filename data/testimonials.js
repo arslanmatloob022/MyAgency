@@ -1,0 +1,57 @@
+import testiIcon1 from "@/assets/img/icon/testi-01.png";
+export const testimonials = [
+    {
+        id: 1,
+        name: 'Jenny Wilson',
+        role: 'Designer',
+        image: new URL('@/assets/img/testimonial/01.png', import.meta.url),
+        icon: testiIcon1,
+        rating: 5,
+        message: 'Information Technology is rapidly evolving field that encompasses the study.',
+    },
+    {
+        id: 2,
+        name: 'Robert Fox',
+        role: 'Developer',
+        image: new URL('@/assets/img/testimonial/02.png', import.meta.url),
+        icon: testiIcon1,
+        rating: 4,
+        message: 'Great service and support. Highly recommended for anyone in IT industry.',
+    },
+    {
+        id: 3,
+        name: 'Jane Cooper',
+        role: 'Marketing Manager',
+        image: new URL('@/assets/img/testimonial/03.png', import.meta.url),
+        icon: testiIcon1,
+        rating: 5,
+        message: 'Their expertise in digital solutions helped us grow significantly.',
+    },
+    {
+        id: 4,
+        name: 'Jenny Wilson',
+        role: 'Designer',
+        image: new URL('@/assets/img/testimonial/01.png', import.meta.url),
+        icon: testiIcon1,
+        rating: 5,
+        message: 'Information Technology is rapidly evolving field that encompasses the study.',
+    },
+    {
+        id: 5,
+        name: 'Robert Fox',
+        role: 'Developer',
+        image: new URL('@/assets/img/testimonial/02.png', import.meta.url),
+        icon: testiIcon1,
+        rating: 4,
+        message: 'Great service and support. Highly recommended for anyone in IT industry.',
+    },
+    {
+        id: 6,
+        name: 'Jane Cooper',
+        role: 'Marketing Manager',
+        image: new URL('@/assets/img/testimonial/03.png', import.meta.url),
+        icon: testiIcon1,
+        rating: 5,
+        message: 'Their expertise in digital solutions helped us grow significantly.',
+    }
+];
