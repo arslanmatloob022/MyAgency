@@ -35,7 +35,10 @@ const { isSticky } = useStickyHeader();
           <div class="header-main">
             <div class="logo">
               <NuxtLink to="/" class="header-logo-22">
-                <img src="@/assets/img/logo/black-logo-2.svg" alt="logo-img" />
+                <img
+                  src="/Logos/LogoWhiteGreen/BCodeSphereS.png"
+                  alt="logo-img"
+                />
               </NuxtLink>
             </div>
             <div class="mean__menu-wrapper">
