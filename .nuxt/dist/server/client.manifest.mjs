@@ -1,1 +1,1 @@
-export { default } from "file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/@nuxt+vite-builder@3.17.4_@types+node@22.15.21_magicast@0.3.5_rollup@4.41.1_sass@1.89.0_terse_yrtxyxzce6f74hzjlehadkuonu/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
+export { default } from "file:///D:/working-directory/MyAgency/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

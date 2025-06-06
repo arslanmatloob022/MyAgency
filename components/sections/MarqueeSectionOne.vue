@@ -58,7 +58,7 @@ import MarqueeText from "~/components/MarqueeText.vue"
               </div>
               <div class="brand-slide-element">
                 <h2 class="marqee-text">
-                  Mobile Tech Mastery
+                  Code Sphere Studio
                 </h2>
               </div>
               <div class="brand-slide-element">
@@ -162,7 +162,7 @@ import MarqueeText from "~/components/MarqueeText.vue"
               </div>
               <div class="brand-slide-element">
                 <h2 class="marqee-text">
-                  Tech Savvy saolution
+                  NextGen Codeworks
                 </h2>
               </div>
             </div>

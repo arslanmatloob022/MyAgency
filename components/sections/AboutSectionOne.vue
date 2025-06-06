@@ -6,7 +6,7 @@
   <section class="about-section section-padding pt-0">
     <div class="container">
       <div class="about-title wow fadeInUp" data-wow-delay=".3s">
-        <h2>Digitally Driven Diligently <br>  IT Excellence a Step</h2>
+        <h2>Crafting Codes, <br> Shaping Future.</h2>
       </div>
       <div class="about-wrapper">
         <div class="about-shape">
@@ -17,7 +17,10 @@
             <img src="@/assets/img/about/01.jpg" alt="img">
           </div>
           <div class="about-content wow fadeInUp" data-wow-delay=".5s">
-            <p>Information Technology is a rapidly evolving field that encompasses the study and application of computing technology to solve complex problems</p>
+            <p>
+              At CodeSphere, we help businesses thrive in the digital age.Our team crafts websites, mobile apps, and software strategies that truly work.
+              <!-- Information Technology is a rapidly evolving field that encompasses the study and application of computing technology to solve complex problems -->
+            </p>
             <NuxtLink to="/services" class="circle-box">
                 <span>
                     <span class="icon">

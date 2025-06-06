@@ -1,7 +1,7 @@
 {
-  "_hash": "-le9aXIMXcHPD2lGWViX6NhzWKtPWVWhAs4uOphWwSg",
+  "_hash": "8TTX_fVQmMt7T1rKV3g8OoU8wc3hkj6a7zLY08ThM_A",
   "project": {
-    "rootDir": "/home/dev/Music/NewFolder/MyWorkSpace/MyAgency"
+    "rootDir": "D:/working-directory/MyAgency"
   },
   "versions": {
     "nuxt": "3.17.4"

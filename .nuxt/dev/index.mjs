@@ -1,39 +1,39 @@
 import process from 'node:process';globalThis._importMeta_={url:import.meta.url,env:process.env};import { tmpdir } from 'node:os';
-import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, getRequestURL, getResponseHeader, getQuery as getQuery$1, readBody, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getResponseStatus, createError, getRouterParam, getResponseStatusText } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/h3@1.15.3/node_modules/h3/dist/index.mjs';
 import { Server } from 'node:http';
 import { resolve, dirname, join } from 'node:path';
 import nodeCrypto from 'node:crypto';
 import { parentPort, threadId } from 'node:worker_threads';
-import { escapeHtml } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/@vue+shared@3.5.14/node_modules/@vue/shared/dist/shared.cjs.js';
-import { createRenderer, getRequestDependencies, getPreloadLinks, getPrefetchLinks } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/vue-bundle-renderer@2.1.1/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery, withTrailingSlash, joinRelativeURL } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/ufo@1.6.1/node_modules/ufo/dist/index.mjs';
-import { renderToString } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/vue@3.5.14_typescript@5.8.3/node_modules/vue/server-renderer/index.mjs';
-import destr, { destr as destr$1 } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/destr@2.0.5/node_modules/destr/dist/index.mjs';
-import { createHooks } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/hookable@5.5.3/node_modules/hookable/dist/index.mjs';
-import { createFetch, Headers as Headers$1 } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/ofetch@1.4.1/node_modules/ofetch/dist/node.mjs';
-import { fetchNodeRequestHandler, callNodeRequestHandler } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/node-mock-http@1.0.0/node_modules/node-mock-http/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/unstorage@1.16.0_db0@0.3.2_ioredis@5.6.1/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/unstorage@1.16.0_db0@0.3.2_ioredis@5.6.1/node_modules/unstorage/drivers/fs.mjs';
-import { digest } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/ohash@2.0.11/node_modules/ohash/dist/index.mjs';
-import { klona } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/klona@2.0.6/node_modules/klona/dist/index.mjs';
-import defu, { defuFn } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/defu@6.1.4/node_modules/defu/dist/defu.mjs';
-import { snakeCase } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/scule@1.3.0/node_modules/scule/dist/index.mjs';
-import { getContext } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/unctx@2.4.1/node_modules/unctx/dist/index.mjs';
-import { toRouteMatcher, createRouter } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/radix3@1.1.2/node_modules/radix3/dist/index.mjs';
+import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, getRequestURL, getResponseHeader, getQuery as getQuery$1, readBody, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getResponseStatus, createError, getRouterParam, getResponseStatusText } from 'file://D:/working-directory/MyAgency/node_modules/h3/dist/index.mjs';
+import { escapeHtml } from 'file://D:/working-directory/MyAgency/node_modules/@vue/shared/dist/shared.cjs.js';
+import { createRenderer, getRequestDependencies, getPreloadLinks, getPrefetchLinks } from 'file://D:/working-directory/MyAgency/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery, withTrailingSlash, joinRelativeURL } from 'file://D:/working-directory/MyAgency/node_modules/ufo/dist/index.mjs';
+import { renderToString } from 'file://D:/working-directory/MyAgency/node_modules/vue/server-renderer/index.mjs';
+import { klona } from 'file://D:/working-directory/MyAgency/node_modules/klona/dist/index.mjs';
+import defu, { defuFn } from 'file://D:/working-directory/MyAgency/node_modules/defu/dist/defu.mjs';
+import destr, { destr as destr$1 } from 'file://D:/working-directory/MyAgency/node_modules/destr/dist/index.mjs';
+import { snakeCase } from 'file://D:/working-directory/MyAgency/node_modules/scule/dist/index.mjs';
+import { createHead as createHead$1, propsToString, renderSSRHead } from 'file://D:/working-directory/MyAgency/node_modules/unhead/dist/server.mjs';
+import { stringify, uneval } from 'file://D:/working-directory/MyAgency/node_modules/devalue/index.js';
+import { isVNode, toValue, isRef } from 'file://D:/working-directory/MyAgency/node_modules/vue/index.mjs';
+import { DeprecationsPlugin, PromisesPlugin, TemplateParamsPlugin, AliasSortingPlugin } from 'file://D:/working-directory/MyAgency/node_modules/unhead/dist/plugins.mjs';
+import { createHooks } from 'file://D:/working-directory/MyAgency/node_modules/hookable/dist/index.mjs';
+import { createFetch, Headers as Headers$1 } from 'file://D:/working-directory/MyAgency/node_modules/ofetch/dist/node.mjs';
+import { fetchNodeRequestHandler, callNodeRequestHandler } from 'file://D:/working-directory/MyAgency/node_modules/node-mock-http/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file://D:/working-directory/MyAgency/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file://D:/working-directory/MyAgency/node_modules/unstorage/drivers/fs.mjs';
+import { digest } from 'file://D:/working-directory/MyAgency/node_modules/ohash/dist/index.mjs';
+import { toRouteMatcher, createRouter } from 'file://D:/working-directory/MyAgency/node_modules/radix3/dist/index.mjs';
 import { readFile } from 'node:fs/promises';
-import consola, { consola as consola$1 } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/consola@3.4.2/node_modules/consola/dist/index.mjs';
-import { ErrorParser } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/youch-core@0.3.2/node_modules/youch-core/build/index.js';
-import { Youch } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/youch@4.1.0-beta.7/node_modules/youch/build/index.js';
-import { SourceMapConsumer } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/source-map@0.7.4/node_modules/source-map/source-map.js';
+import consola, { consola as consola$1 } from 'file://D:/working-directory/MyAgency/node_modules/consola/dist/index.mjs';
+import { ErrorParser } from 'file://D:/working-directory/MyAgency/node_modules/youch-core/build/index.js';
+import { Youch } from 'file://D:/working-directory/MyAgency/node_modules/youch/build/index.js';
+import { SourceMapConsumer } from 'file://D:/working-directory/MyAgency/node_modules/source-map/source-map.js';
 import { AsyncLocalStorage } from 'node:async_hooks';
-import { stringify, uneval } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/devalue@5.1.1/node_modules/devalue/index.js';
-import { captureRawStackTrace, parseRawStackTrace } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/errx@0.1.0/node_modules/errx/dist/index.js';
-import { isVNode, toValue, isRef } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/vue@3.5.14_typescript@5.8.3/node_modules/vue/index.mjs';
-import { createHead as createHead$1, propsToString, renderSSRHead } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/unhead@2.0.10/node_modules/unhead/dist/server.mjs';
-import { DeprecationsPlugin, PromisesPlugin, TemplateParamsPlugin, AliasSortingPlugin } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/unhead@2.0.10/node_modules/unhead/dist/plugins.mjs';
-import { walkResolver } from 'file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/unhead@2.0.10/node_modules/unhead/dist/utils.mjs';
+import { getContext } from 'file://D:/working-directory/MyAgency/node_modules/unctx/dist/index.mjs';
+import { captureRawStackTrace, parseRawStackTrace } from 'file://D:/working-directory/MyAgency/node_modules/errx/dist/index.js';
+import { walkResolver } from 'file://D:/working-directory/MyAgency/node_modules/unhead/dist/utils.mjs';
 
-const serverAssets = [{"baseName":"server","dir":"/home/dev/Music/NewFolder/MyWorkSpace/MyAgency/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"D:/working-directory/MyAgency/server/assets"}];
 
 const assets = createStorage();
 
@@ -45,11 +45,11 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets);
 
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/dev/Music/NewFolder/MyWorkSpace/MyAgency","watchOptions":{"ignored":[null]}}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/dev/Music/NewFolder/MyWorkSpace/MyAgency/server","watchOptions":{"ignored":[null]}}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/dev/Music/NewFolder/MyWorkSpace/MyAgency/.nuxt"}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/dev/Music/NewFolder/MyWorkSpace/MyAgency/.nuxt/cache"}));
-storage.mount('data', unstorage_47drivers_47fs({"driver":"fs","base":"/home/dev/Music/NewFolder/MyWorkSpace/MyAgency/.data/kv"}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"D:/working-directory/MyAgency","watchOptions":{"ignored":[null]}}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"D:/working-directory/MyAgency/server","watchOptions":{"ignored":[null]}}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"D:/working-directory/MyAgency/.nuxt"}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"D:/working-directory/MyAgency/.nuxt/cache"}));
+storage.mount('data', unstorage_47drivers_47fs({"driver":"fs","base":"D:/working-directory/MyAgency/.data/kv"}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -693,11 +693,6 @@ new Proxy(/* @__PURE__ */ Object.create(null), {
   }
 });
 
-getContext("nitro-app", {
-  asyncContext: false,
-  AsyncLocalStorage: void 0
-});
-
 const config = useRuntimeConfig();
 const _routeRulesMatcher = toRouteMatcher(
   createRouter({ routes: config.nitro.routeRules })
@@ -1013,13 +1008,13 @@ if (!window.__NUXT_DEVTOOLS_TIME_METRIC__) {
 window.__NUXT_DEVTOOLS_TIME_METRIC__.appInit = Date.now()
 `;
 
-const _Bi9sV5OtXHNZOLUTbiSq7w3CISM5RfkXngbW0T6Vf_s = (function(nitro) {
+const _0FQzL4VDRYbZAfOli3F2kR3EiycSqnZVM0kKh11wtDc = (function(nitro) {
   nitro.hooks.hook("render:html", (htmlContext) => {
     htmlContext.head.push(`<script>${script}<\/script>`);
   });
 });
 
-const rootDir = "/home/dev/Music/NewFolder/MyWorkSpace/MyAgency";
+const rootDir = "D:/working-directory/MyAgency";
 
 const appHead = {"meta":[{"name":"viewport","content":"width=500, initial-scale=1"},{"charset":"utf-16"},{"name":"description","content":"Codesphere Studios - where innovation meets excellence."},{"property":"og:locale","content":"en_US"},{"property":"og:type","content":"website"},{"property":"og:site_name","content":"Codesphere Studios - where innovation meets excellence."},{"property":"twitter:card","content":"summary"},{"name":"robots","content":"index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"}],"link":[],"style":[],"script":[],"noscript":[],"charset":"utf-16","viewport":"width=500, initial-scale=1","title":"Codesphere Studios - where innovation meets excellence."};
 
@@ -1038,7 +1033,7 @@ const devReducers = {
   URL: (data) => data instanceof URL ? data.toString() : void 0
 };
 const asyncContext = getContext("nuxt-dev", { asyncContext: true, AsyncLocalStorage });
-const _LgNv_m_tnVjvDUVLPvewJRsBKAstExaBXhiRTVz83I = (nitroApp) => {
+const _3aktP7jQifmVtGQveaLU9u0Hs6HYM1GuEXrZ2GA85E = (nitroApp) => {
   const handler = nitroApp.h3App.handler;
   nitroApp.h3App.handler = (event) => {
     return asyncContext.callAsync({ logs: [], event }, () => handler(event));
@@ -1108,8 +1103,8 @@ function onConsoleLog(callback) {
 }
 
 const plugins = [
-  _Bi9sV5OtXHNZOLUTbiSq7w3CISM5RfkXngbW0T6Vf_s,
-_LgNv_m_tnVjvDUVLPvewJRsBKAstExaBXhiRTVz83I
+  _0FQzL4VDRYbZAfOli3F2kR3EiycSqnZVM0kKh11wtDc,
+_3aktP7jQifmVtGQveaLU9u0Hs6HYM1GuEXrZ2GA85E
 ];
 
 const VueResolver = (_, value) => {
@@ -1183,8 +1178,8 @@ function publicAssetsURL(...path) {
 
 const APP_ROOT_OPEN_TAG = `<${appRootTag}${propsToString(appRootAttrs)}>`;
 const APP_ROOT_CLOSE_TAG = `</${appRootTag}>`;
-const getServerEntry = () => import('file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
-const getClientManifest = () => import('file:///home/dev/Music/NewFolder/MyWorkSpace/MyAgency/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
+const getServerEntry = () => import('file://D:/working-directory/MyAgency/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
+const getClientManifest = () => import('file://D:/working-directory/MyAgency/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
 const getSSRRenderer = lazyCachedFunction(async () => {
   const manifest = await getClientManifest();
   if (!manifest) {
@@ -1430,12 +1425,12 @@ async function getIslandContext(event) {
   return ctx;
 }
 
-const _lazy_OZlkdM = () => Promise.resolve().then(function () { return renderer$1; });
+const _lazy_HWsVUm = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
-  { route: '/__nuxt_error', handler: _lazy_OZlkdM, lazy: true, middleware: false, method: undefined },
+  { route: '/__nuxt_error', handler: _lazy_HWsVUm, lazy: true, middleware: false, method: undefined },
   { route: '/__nuxt_island/**', handler: _SxA8c9, lazy: false, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_OZlkdM, lazy: true, middleware: false, method: undefined }
+  { route: '/**', handler: _lazy_HWsVUm, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {

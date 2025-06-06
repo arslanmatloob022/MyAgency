@@ -7,12 +7,12 @@
     "module": true,
     "resourceType": "script"
   },
-  "/home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/nuxt@3.17.4_@parcel+watcher@2.5.1_@types+node@22.15.21_db0@0.3.2_ioredis@5.6.1_magicast@0.3.5_rvs5nu5xuljfaetczh74p6djze/node_modules/nuxt/dist/app/entry.js": {
+  "D:/working-directory/MyAgency/node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
     "isEntry": true,
-    "file": "/home/dev/Music/NewFolder/MyWorkSpace/MyAgency/node_modules/.pnpm/nuxt@3.17.4_@parcel+watcher@2.5.1_@types+node@22.15.21_db0@0.3.2_ioredis@5.6.1_magicast@0.3.5_rvs5nu5xuljfaetczh74p6djze/node_modules/nuxt/dist/app/entry.js"
+    "file": "D:/working-directory/MyAgency/node_modules/nuxt/dist/app/entry.js"
   }
 }

@@ -23,9 +23,7 @@ const breakpoints = {
                   Contact Us
                 </h2>
                 <p class="text-white mt-3 wow fadeInUp" data-wow-delay=".5s">
-                  Information Technology is a evolving field tencompasses the
-                  study application computing Information Technology is a
-                  evolving field that encompasses
+                 We’d love to hear from you! Whether you have a question about our services, want to discuss a project, or just want to say hello — our team is ready to help. Fill out the form and we’ll get back to you as soon as possible.
                 </p>
               </div>
               <ul class="contact-info wow fadeInUp" data-wow-delay=".7s">
@@ -34,7 +32,7 @@ const breakpoints = {
                     <i class="fa-solid fa-location-dot"></i>
                     Address
                   </span>
-                  2118 Thornridge Cir. Syracuse
+                  157 C-Block Guldasht Town, Lahore
                 </li>
                 <li>
                   <span>
