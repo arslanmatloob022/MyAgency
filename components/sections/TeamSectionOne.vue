@@ -16,11 +16,11 @@
           <div class="col-lg-6">
             <div class="team-left-content">
               <div class="section-title mb-0 wow fadeInUp" data-wow-delay=".3s">
-                <h2>Arlene McCoy</h2>
+                <h2>Arslan Matloob</h2>
               </div>
               <span class="wow fadeInUp" data-wow-delay=".5s">FOUNDER</span>
               <p class="wow fadeInUp" data-wow-delay=".7s">
-                Information Technology is a rapidly evolving field that encompasses the study and application of computing technology to solve Information Technology is a rapidly evolving field that encompasses
+               CodeSpher was founded in 2017 by Arslan Matloob, fueled by a deep passion for technology and creative problem-solving. What started as a solo venture quickly became a platform for turning ideas into digital solutions. In the early days, CodeSpher existed more as a personal initiative, with its presence limited to Arslan’s LinkedIn and social media profiles. Over time, that vision grew into a full-fledged company, driven by dedication and innovation.
               </p>
               <ul class="nav wow fadeInUp" data-wow-delay=".3s">
                 <li class="nav-item">

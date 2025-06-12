@@ -8,7 +8,7 @@
       <div class="section-title text-center">
         <h2 class="wow fadeInUp" data-wow-delay=".3s">How We Work</h2>
         <p class="mt-3 wow fadeInUp" data-wow-delay=".5s">
-          Information Technology is a rapidly evolving field that encompasses the study and <br> application of computing technology to solve complex problems
+         Our process is simple, effective, and focused on results— guiding your idea <br>  from concept to launch with clarity at every step.
         </p>
       </div>
       <div class="line-shape-1">
@@ -27,7 +27,7 @@
               </div>
             </div>
             <div class="how-work-content">
-              <p>Information Technology is a rapidly evolving field that encompasses the study and application of computing technology to solve </p>
+              <p>We begin by deeply understanding your goals and challenges. Then we  translate  them into a strategic blueprint — a <br> clear plan that lays the foundation <br> for success. </p>
             </div>
           </div>
         </div>
@@ -40,7 +40,7 @@
               </div>
             </div>
             <div class="how-work-content">
-              <p>Information Technology is a rapidly evolving field that encompasses the study and application of computing technology to solve </p>
+              <p>Through wireframes, mockups, and agile development, we design thoughtful experiences and build solid,  scalable <br> products tailored to your <br> audience. </p>
             </div>
           </div>
         </div>
@@ -53,7 +53,7 @@
               </div>
             </div>
             <div class="how-work-content">
-              <p>Information Technology is a rapidly evolving field that encompasses the study and application of computing technology to solve </p>
+              <p>Before anything goes live, we  test for performance, security, and usability.<br> Only when it’s perfect, we launch <br> — with confidence and quality <br> guaranteed. </p>
             </div>
           </div>
         </div>

@@ -1,6 +1,31 @@
 <script setup lang="ts">
 import "swiper/css";
+import brand01 from '@/assets/img/brand/brand_1.jpg'
+import brand02 from '@/assets/img/brand/brand_2.jpg'
+import brand03 from '@/assets/img/brand/brand_3.jpg'
+import brand04 from '@/assets/img/brand/brand_4.jpg'
+import brand05 from '@/assets/img/brand/brand_5.jpg'
+import brand06 from '@/assets/img/brand/brand_6.jpg'
 
+// import brand01 from '@/assets/img/brand/01.png'
+// import brand02 from '@/assets/img/brand/02.png'
+// import brand03 from '@/assets/img/brand/03.png'
+// import brand04 from '@/assets/img/brand/04.png'
+// import brand05 from '@/assets/img/brand/05.png'
+// import brand06 from '@/assets/img/brand/06.png'
+// Create image array with repeating items if needed
+const brandImages = ref([
+  brand05,
+  brand02,
+  brand03,
+  brand04,
+  brand05,
+  brand06,
+  brand03,
+  brand04,
+  brand05,
+  brand06
+])
 const breakpoints = {
   1199: { slidesPerView: 6 },
   991: { slidesPerView: 5 },
@@ -110,68 +135,27 @@ const breakpoints = {
         </div>
       </div>
       <div class="brand-section section-padding pb-0">
-        <div class="swiper brand-slider">
-          <swiper-container
-            :space-between="50"
-            :speed="2000"
-            :loop="true"
-            :autoplay="{ delay: 1000, disableOnInteraction: false }"
-            :breakpoints="breakpoints"
-            class="swiper-wrapper"
-          >
-            <swiper-slide class="swiper-slide">
-              <div class="brand-image">
-                <img src="@/assets/img/brand/01.png" alt="img" />
-              </div>
-            </swiper-slide>
-            <swiper-slide class="swiper-slide">
-              <div class="brand-image">
-                <img src="@/assets/img/brand/02.png" alt="img" />
-              </div>
-            </swiper-slide>
-            <swiper-slide class="swiper-slide">
-              <div class="brand-image">
-                <img src="@/assets/img/brand/03.png" alt="img" />
-              </div>
-            </swiper-slide>
-            <swiper-slide class="swiper-slide">
-              <div class="brand-image">
-                <img src="@/assets/img/brand/04.png" alt="img" />
-              </div>
-            </swiper-slide>
-            <swiper-slide class="swiper-slide">
-              <div class="brand-image">
-                <img src="@/assets/img/brand/05.png" alt="img" />
-              </div>
-            </swiper-slide>
-            <swiper-slide class="swiper-slide">
-              <div class="brand-image">
-                <img src="@/assets/img/brand/06.png" alt="img" />
-              </div>
-            </swiper-slide>
-            <swiper-slide class="swiper-slide">
-              <div class="brand-image">
-                <img src="@/assets/img/brand/03.png" alt="img" />
-              </div>
-            </swiper-slide>
-            <swiper-slide class="swiper-slide">
-              <div class="brand-image">
-                <img src="@/assets/img/brand/04.png" alt="img" />
-              </div>
-            </swiper-slide>
-            <swiper-slide class="swiper-slide">
-              <div class="brand-image">
-                <img src="@/assets/img/brand/05.png" alt="img" />
-              </div>
-            </swiper-slide>
-            <swiper-slide class="swiper-slide">
-              <div class="brand-image">
-                <img src="@/assets/img/brand/06.png" alt="img" />
-              </div>
-            </swiper-slide>
-          </swiper-container>
-        </div>
-      </div>
+    <div class="swiper brand-slider">
+      <swiper-container
+        :space-between="50"
+        :speed="2000"
+        :loop="true"
+        :autoplay="{ delay: 1000, disableOnInteraction: false }"
+        :breakpoints="breakpoints"
+        class="swiper-wrapper"
+      >
+        <swiper-slide
+          v-for="(image, index) in brandImages"
+          :key="index"
+          class="swiper-slide"
+        >
+          <div class="brand-image">
+            <img :src="image" alt="brand" style="width: 179px;height: auto;" />
+          </div>
+        </swiper-slide>
+      </swiper-container>
+    </div>
+  </div>
     </div>
   </section>
 </template>
