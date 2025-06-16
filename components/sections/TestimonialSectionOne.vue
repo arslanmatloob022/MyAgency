@@ -9,7 +9,9 @@
           <div class="col-xl-4">
             <div class="testimonial-logo wow fadeInUp" data-wow-delay=".3s">
               <div class="logo-image">
-                <img src="@/assets/img/testimonial/logo.svg" alt="img">
+                
+                <img   src="/Logos/LogoWhiteGreen/BCodeSphereS.png"
+                  alt="code_sphere_studios_logo">
               </div>
             </div>
             <div class="testimonial-box wow fadeInUp" data-wow-delay=".5s">
@@ -19,9 +21,8 @@
                 </div>
                 <h3>Tomorrow Just Informs</h3>
               </div>
-              <p>
-                Information Technology is a evolving field that encompasses the study application of computing technology
-              </p>
+              <p> Accelerate innovation with world-class tech teams — delivering excellence, speed, and reliability.
+                        </p>
               <div class="fly-image">
                 <img src="@/assets/img/testimonial/05.png" alt="img">
               </div>
@@ -47,7 +48,8 @@
                   </div>
                 </div>
                 <p>
-                  Information Technology is rapidly evolving field that encompasses the study and application
+                Where innovation meets execution — build faster with our expert tech teams
+                        
                 </p>
                 <svg xmlns="http://www.w3.org/2000/svg" width="122" height="122" viewBox="0 0 122 122" fill="none">
                   <g clip-path="url(#clip0_8721_831)">
@@ -68,7 +70,11 @@
               <div class="testimonial-content">
                 <h3>Software Solutions Pro</h3>
                 <p>
-                  Information Technology is a evolving field that encompasses the <br> study application of computing technology
+
+                  “CodeSpher didn’t just build our app—they brought it to life.<br> Their attention to detail and creative input made all the difference.”
+                  <br>
+— Ayesha Khan, CEO, EduLink
+                 
                 </p>
                 <div class="testimonial-wrap">
                   <div class="testimonial-count">

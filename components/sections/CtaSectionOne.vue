@@ -9,7 +9,7 @@
         <div class="row g-4 align-items-end">
           <div class="col-lg-6">
             <h2 class="wow fadeInUp" data-wow-delay=".3s">
-              Technology is rapidly evolving to the field
+Crafting Codes, Shaping Future.
             </h2>
           </div>
           <div class="col-lg-6">
@@ -17,21 +17,21 @@
               <ul>
                 <li>
                   <i class="fa-regular fa-chevrons-right"></i>
-                  TechSavvy Solutions
+                  CMS
                 </li>
                 <li>
                   <i class="fa-regular fa-chevrons-right"></i>
-                  NetworkNinja Services
+                  IMS
                 </li>
               </ul>
               <ul>
                 <li>
                   <i class="fa-regular fa-chevrons-right"></i>
-                  TechSavvy Solutions
+                  HMS
                 </li>
                 <li>
                   <i class="fa-regular fa-chevrons-right"></i>
-                  NetworkNinja Services
+                  VMS
                 </li>
               </ul>
             </div>

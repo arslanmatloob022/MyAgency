@@ -15,7 +15,8 @@
           class="footer-logo wow fadeInUp"
           data-wow-delay=".3s"
         >
-          <img src="../../assets/img/logo/black-logo.svg" alt="img" />
+              <img   src="/Logos/LogoWhiteGreen/BCodeSphereS.png"
+                  alt="code_sphere_studios_logo">
         </NuxtLink>
         <div
           class="social-icon d-flex align-items-center wow fadeInUp"
@@ -50,12 +51,12 @@
                   <li>
                     Phone
                     <span>
-                      <a href="tel:+17189044450">+1718-904-4450</a>
+                      <p>+92300 7626 555</p>
                     </span>
                   </li>
                   <li>
                     Location
-                    <span> 2118 Thornridge Cir. Syracuse </span>
+                    <span>  Evergreen, CO 80437, USA </span>
                   </li>
                 </ul>
               </div>
@@ -72,27 +73,27 @@
               <ul class="list-items">
                 <li>
                   <NuxtLink to="/services/details">
-                    Tech Savvy Solutions
+                   Compliance Management System  (CMS)
                   </NuxtLink>
                 </li>
                 <li>
                   <NuxtLink to="/services/details">
-                    Data Driven Dynamics
+                    Inventory Management System (IMS)
                   </NuxtLink>
                 </li>
                 <li>
                   <NuxtLink to="/services/details">
-                    Network Ninja Services
+                    Home Inspection & Check System
                   </NuxtLink>
                 </li>
                 <li>
                   <NuxtLink to="/services/details">
-                    Cloud Craft Creations
+                    Billing & Invoicing System
                   </NuxtLink>
                 </li>
                 <li>
                   <NuxtLink to="/services/details">
-                    Cyber Security Sentinel
+                     Hospital Management System (HMS)
                   </NuxtLink>
                 </li>
               </ul>
@@ -108,8 +109,8 @@
               </div>
               <div class="footer-content">
                 <p>
-                  Information Technology is a rapidly evolving field that a
-                  encompasses latest the study
+                 We're always ready to listen and help bring your ideas to life.
+Reach out today — let's build something great together.
                 </p>
                 <div class="footer-input">
                   <input type="email" placeholder="Your email..." />
@@ -133,7 +134,7 @@
           class="footer-wrapper d-flex align-items-center justify-content-between"
         >
           <p class="wow fadeInLeft color-2" data-wow-delay=".3s">
-            © All Copyright 2025 by <NuxtLink to="/">TechEdge</NuxtLink>
+            © All Copyright 2025 by <NuxtLink to="/">CodeSphere</NuxtLink>
           </p>
           <ul class="footer-menu wow fadeInRight" data-wow-delay=".5s">
             <li>

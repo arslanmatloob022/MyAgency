@@ -6,14 +6,8 @@ import brand03 from '@/assets/img/brand/brand_3.jpg'
 import brand04 from '@/assets/img/brand/brand_4.jpg'
 import brand05 from '@/assets/img/brand/brand_5.jpg'
 import brand06 from '@/assets/img/brand/brand_6.jpg'
+const slidesPerView = ref(4);
 
-// import brand01 from '@/assets/img/brand/01.png'
-// import brand02 from '@/assets/img/brand/02.png'
-// import brand03 from '@/assets/img/brand/03.png'
-// import brand04 from '@/assets/img/brand/04.png'
-// import brand05 from '@/assets/img/brand/05.png'
-// import brand06 from '@/assets/img/brand/06.png'
-// Create image array with repeating items if needed
 const brandImages = ref([
   brand05,
   brand02,
@@ -57,7 +51,7 @@ const breakpoints = {
                     <i class="fa-solid fa-location-dot"></i>
                     Address
                   </span>
-                  157 C-Block Guldasht Town, Lahore
+                  Evergreen, CO 80437, USA
                 </li>
                 <li>
                   <span>
@@ -99,7 +93,7 @@ const breakpoints = {
                     />
                   </div>
                 </div>
-                <div class="col-lg-12 wow fadeInUp" data-wow-delay=".5s">
+                <!-- <div class="col-lg-12 wow fadeInUp" data-wow-delay=".5s">
                   <div class="form-clt">
                     <span>Option</span>
                     <div class="form">
@@ -112,7 +106,7 @@ const breakpoints = {
                       </select>
                     </div>
                   </div>
-                </div>
+                </div> -->
                 <div class="col-lg-12 wow fadeInUp" data-wow-delay=".9s">
                   <div class="form-clt">
                     <span>Message</span>
@@ -142,6 +136,7 @@ const breakpoints = {
         :loop="true"
         :autoplay="{ delay: 1000, disableOnInteraction: false }"
         :breakpoints="breakpoints"
+         :slides-per-view="slidesPerView"
         class="swiper-wrapper"
       >
         <swiper-slide
@@ -160,4 +155,4 @@ const breakpoints = {
   </section>
 </template>
 
-<style scoped></style>
+
