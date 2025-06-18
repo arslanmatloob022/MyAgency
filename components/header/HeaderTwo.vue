@@ -38,6 +38,7 @@ const { isSticky } = useStickyHeader();
                 <img
                   src="/Logos/LogoWhiteGreen/BCodeSphereS.png"
                   alt="logo-img"
+                 
                 />
               </NuxtLink>
             </div>

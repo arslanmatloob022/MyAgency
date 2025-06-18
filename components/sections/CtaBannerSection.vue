@@ -9,13 +9,13 @@ import ctaBg from "@/assets/img/cta/cta-bg.jpg";
         <div class="row g-4 align-items-center justify-content-between">
           <div class="col-lg-8">
             <h2>
-              Driving Success Through Expertise Solutions
+              Achieving Success with Our Experts
             </h2>
           </div>
           <div class="col-lg-3">
 
             <div class="main-button wow fadeInUp" data-wow-delay=".3s">
-              <NuxtLink to="/about"> <span class="theme-btn"> Contact Us </span><span class="arrow-btn"><i class="icon-arrow-right"></i></span></NuxtLink>
+              <NuxtLink to="/contact"> <span class="theme-btn"> Contact Us </span><span class="arrow-btn"><i class="icon-arrow-right"></i></span></NuxtLink>
             </div>
           </div>
         </div>

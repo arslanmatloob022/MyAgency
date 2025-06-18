@@ -33,7 +33,7 @@ import CtaSectionOne from "~/components/sections/CtaSectionOne.vue";
   <!--  Project Section End-->
 
   <!-- Pricing Section Start -->
-  <PricingSectionOne/>
+  <!-- <PricingSectionOne/> -->
   <!-- Pricing Section End -->
 
   <!-- Marquee Section Start -->

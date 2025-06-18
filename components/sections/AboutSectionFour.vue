@@ -10,8 +10,8 @@
           <div class="col-lg-6">
             <div class="about-content">
               <div class="section-title mb-0">
-                <h2 class="wow fadeInUp">Unleashing the Power  Technology</h2>
-                <p class="wow fadeInUp" data-wow-delay=".3s">Information Technology is a rapidly evolving field that encompasses the study and application of computing technology to solve complex problems</p>
+                <h2 class="wow fadeInUp">Where Ideas Become Excellence</h2>
+                <p class="wow fadeInUp" data-wow-delay=".3s">We deliver innovative software solutions tailored to your business needs, specializing in web development, mobile apps, and software consulting.</p>
               </div>
               <div class="counter-items-area">
                 <div class="counter-items wow fadeInUp" data-wow-delay=".3s">
@@ -43,7 +43,7 @@
           </div>
           <div class="col-lg-6">
             <div class="about-img">
-              <img src="@/assets/img/about/11.jpg" alt="img" class="wow img-custom-anim-left">
+              <img src="@/assets/img/about/about1.jpg" alt="img" class="wow img-custom-anim-left">
               <div class="shape-box float-bob-y">
                 <img src="@/assets/img/about/shape-box-2.png" alt="img">
               </div>

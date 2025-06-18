@@ -32,10 +32,13 @@
                       <div class="form">
                         <select class="single-select nice-select w-100">
                           <option>Select Service</option>
-                          <option>Service 01</option>
-                          <option>Service 02</option>
-                          <option>Service 03</option>
-                          <option>Service 04</option>
+                          <option>Website Development</option>
+                          <option>Website Design</option>
+                          <option>UI/UX Design</option>
+                          <option>Web Security</option>
+                          <option>Mobile App Development</option>
+                          <option>Software Consulting</option>
+
                         </select>
                       </div>
                     </div>

@@ -34,7 +34,7 @@ const menus = ref([
   <!-- Cta Section End -->
 
   <!-- Pricing Section Start -->
-  <PricingSectionTwo />
+  <!-- <PricingSectionTwo /> -->
   <!-- Pricing Section End -->
 
   <!-- Contact Section Start -->

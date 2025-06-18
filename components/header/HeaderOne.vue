@@ -30,16 +30,20 @@ const { isOffcanvasOpen, isOverlayOpen, isBodyOverlayOpen, openOffcanvas } =
         <div class="mega-menu-wrapper">
           <div class="header-main">
             <div class="logo">
-              <NuxtLink to="/" class="header-logo">
+              <NuxtLink to="/"   class="header-logo">
                 <img
                   src="/Logos/LogoWhiteGreen/BCodeSphereS.png"
                   alt="code_sphere_studios_logo"
+                  height="70px"
+                  
                 />
               </NuxtLink>
               <NuxtLink to="/" class="header-logo-2">
-                <img
-                  src="@/assets/img/logo/black-logo.svg"
+                 <img
+                  src="/Logos/LogoWhiteGreen/BCodeSphereS.png"
                   alt="code_sphere_studios_logo"
+                  height="50px"
+                  
                 />
               </NuxtLink>
             </div>

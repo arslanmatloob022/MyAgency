@@ -21,7 +21,7 @@ const services = ref([
     {
     id: 1,
     title: 'UI/UX Design',
-    description: "At CodeSphere Studios, we understand that an outstanding user interface (UI) and user experience (UX) are critical to the success of any digital product. Our expert team is dedicated to creating intuitive, engaging, and seamless experiences that not only meet but exceed user expectations. By focusing on the user journey, we ensure your product is both beautiful and functional.",
+    description:"At CodeSphere Studios, we understand that an outstanding user interface (UI) and user experience (UX) are critical to the success of any digital product. Our  team is dedicated to creating intuitive, engaging, and seamless experiences that not only meet but exceed user expectations. By focusing on the user journey, we ensure your product is both beautiful and functional.We designs That srive engagement .",
     iconClass: 'icon-04',
    
     link: '/services/details'
@@ -58,7 +58,7 @@ description: "Expert Guidance for Your Projects\nOur software consulting service
   <section class="service-section section-padding">
     <div class="container">
       <div class="section-title text-center">
-        <h2 class="wow fadeInUp" data-wow-delay=".3s">Our Best Services</h2>
+        <h2 class="wow fadeInUp" data-wow-delay=".3s">Our Best Services </h2>
         <p class="mt-3 wow fadeInUp" data-wow-delay=".5s">
           Unlock your business potential with our expert solutions.We offer tailored services designed <br> to accelerate your growth and success.
           

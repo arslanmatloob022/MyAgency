@@ -5,9 +5,7 @@
 <template>
   <section class="about-section section-padding pt-0">
     <div class="container">
-      <div class="about-title wow fadeInUp" data-wow-delay=".3s">
-        <h2>Crafting Codes, <br> Shaping Future.</h2>
-      </div>
+      
       <div class="about-wrapper">
         <div class="about-shape">
           <img src="@/assets/img/about/about-shape.png" alt="img">
@@ -19,7 +17,7 @@
           <div class="about-content wow fadeInUp" data-wow-delay=".5s">
             <p>
               At CodeSphere, we help businesses thrive in the digital age.Our team crafts websites, mobile apps, and software strategies that truly work.
-              <!-- Information Technology is a rapidly evolving field that encompasses the study and application of computing technology to solve complex problems -->
+              
             </p>
             <NuxtLink to="/services" class="circle-box">
                 <span>
