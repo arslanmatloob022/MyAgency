@@ -18,7 +18,7 @@
         <img src="@/assets/img/choose-us/line-shape-2.png" alt="img">
       </div>
       <div class="row">
-        <div class="col-lg-4 wow fadeInUp mt-3" data-wow-delay=".3s">
+        <div class="col-lg-4 wow fadeInUp " data-wow-delay=".3s">
           <div class="how-work-items">
             <div class="how-work-img">
               <img src="@/assets/img/how-work/01.png" alt="img">
@@ -32,7 +32,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 wow fadeInUp mt-3 " data-wow-delay=".5s">
+        <div class="col-lg-4 wow fadeInUp  " data-wow-delay=".5s">
           <div class="how-work-items">
             <div class="how-work-img">
               <img src="@/assets/img/how-work/02.png" alt="img">
@@ -42,11 +42,11 @@
             </div>
             <div class="how-work-content">
               <h3>Design and Development</h3>
-              <p>Next, we create detailed wireframes and mockups, followed by user-centric UI/UX design. Our expert developers bring  designs to life by front-end and back-end development, database integration, and third-party API connections, that your product is both visually appealing and technically sound. </p>
+              <p>Next, We create wireframes and user-focused UI/UX design. Our developers expertly build the product with front-end and back-end development, database integration, and API connections to ensure it’s visually appealing and technically strong. </p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 wow fadeInUp mt-3" data-wow-delay=".7s">
+        <div class="col-lg-4 wow fadeInUp " data-wow-delay=".7s">
           <div class="how-work-items">
             <div class="how-work-img">
               <img src="@/assets/img/how-work/03.png" alt="img">
