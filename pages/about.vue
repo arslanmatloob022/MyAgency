@@ -42,11 +42,11 @@ const menus = ref([
   <!-- Contact Section End -->
 
   <!-- Faq Section Start -->
-  <FaqSectionFour />
+  <!-- <FaqSectionFour /> -->
   <!-- Faq Section End -->
 
   <!--  CTA Section Start -->
-  <CtaSectionOne />
+  <!-- <CtaSectionOne /> -->
   <!--  CTA Section End -->
 </template>
 

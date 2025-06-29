@@ -15,17 +15,17 @@
           class="footer-logo wow fadeInUp"
           data-wow-delay=".3s"
         >
-              <img   src="/Logos/LogoWhiteGreen/BCodeSphereS.png"
+              <img height="60px" width="120px"  src="/Logos/DarkLogos/CSDarkShortL.png"
                   alt="code_sphere_studios_logo">
         </NuxtLink>
         <div
           class="social-icon d-flex align-items-center wow fadeInUp"
           data-wow-delay=".5s"
         >
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/arslan.raajput.1" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://x.com/blackshadowik?t=yDf4z4OXrLR7vJRbeKLyyQ&s=09" target="_blank" ><i class="fab fa-twitter"></i></a>
+          <a href="www.linkedin.com/in/raoarslanmatloob" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href=" https://www.instagram.com/i_arslan_rao?igsh=cmV2aHQxdGxhcjhn" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
       </div>
       <div class="footer-widget-wrapper">
@@ -73,27 +73,27 @@
               <ul class="list-items">
                 <li>
                   <NuxtLink to="/services/details">
-                   Compliance Management System  (CMS)
+                   Web Development
                   </NuxtLink>
                 </li>
                 <li>
                   <NuxtLink to="/services/details">
-                    Inventory Management System (IMS)
+                    Mobile App Development
                   </NuxtLink>
                 </li>
                 <li>
                   <NuxtLink to="/services/details">
-                    Home Inspection & Check System
+                    Software as a Service
                   </NuxtLink>
                 </li>
                 <li>
                   <NuxtLink to="/services/details">
-                    Billing & Invoicing System
+                    Desktop Applications
                   </NuxtLink>
                 </li>
                 <li>
                   <NuxtLink to="/services/details">
-                     Hospital Management System (HMS)
+                     Artificial Intelligence
                   </NuxtLink>
                 </li>
               </ul>

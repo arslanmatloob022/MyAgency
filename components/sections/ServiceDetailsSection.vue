@@ -7,23 +7,26 @@
     <div class="container">
       <div class="sertvice-details-wrapper">
         <div class="details-image">
-          <img src="@/assets/img/service/managment_systems.webp" alt="img">
+          <img src="@/assets/img/service/IT-Services.jpg" alt="sevices_detail_img">
         </div>
         <div class="service-details-content">
           <h2>Comprehensive Business Management Solutions</h2>
           <p>
-           At CodeSphere, we deliver powerful, integrated software solutions tailored to simplify and streamline complex business operations. Whether you're managing people, assets, compliance, or vendors, our systems are designed to improve efficiency, accuracy, and control — all from a single platform
+            At CodeSphere, we deliver powerful, integrated software solutions tailored to simplify and streamline
+            complex business operations. Whether you're managing people, assets, compliance, or vendors, our systems are
+            designed to improve efficiency, accuracy, and control — all from a single platform
           </p>
           <h3>
             At CodeSphere Our Core Services Include
           </h3>
           <p>
-           From powerful web dashboards to responsive mobile apps, we create scalable solutions that help businesses manage operations like HR, inventory, assets, vendors, and compliance with ease.
+            From powerful web dashboards to responsive mobile apps, we create scalable solutions that help businesses
+            manage operations like HR, inventory, assets, vendors, and compliance with ease.
           </p>
           <div class="row g-4 pt-4 pb-5 align-items-center">
             <div class="col-md-6">
               <div class="thumb">
-                <img src="@/assets/img/service/services1.jpg" alt="img">
+                <img src="@/assets/img/service/services1.jpg" alt="service_1_img">
               </div>
             </div>
             <div class="col-md-6">
@@ -31,42 +34,39 @@
                 <ul class="list-items">
                   <li>
                     <i class="fa-solid fa-angles-right"></i>
-                    Vendor Management System
+                    Health Care
                   </li>
                   <li>
                     <i class="fa-solid fa-angles-right"></i>
-                   Compliance Management System (CMS)
+                    Workforce Agencies
                   </li>
                   <li>
                     <i class="fa-solid fa-angles-right"></i>
-                    Inventory Management System (IMS)
+                    Education
                   </li>
                   <li>
                     <i class="fa-solid fa-angles-right"></i>
-                  Home Inspection & Check System
+                    Construction
                   </li>
                 </ul>
                 <ul class="list-items">
                   <li>
                     <i class="fa-solid fa-angles-right"></i>
-                    Billing & Invoicing System
+                    Real Estate
                   </li>
                   <li>
                     <i class="fa-solid fa-angles-right"></i>
-                    Hospital Management System (HMS)
+                    Finance & Billing
                   </li>
                   <li>
                     <i class="fa-solid fa-angles-right"></i>
-                   Asset Management System
+                    Government and Inspection
                   </li>
                   <li>
                     <i class="fa-solid fa-angles-right"></i>
-                  Vendor Management System
+                    Human Resource
                   </li>
-                   <li>
-                    <i class="fa-solid fa-angles-right"></i>
-                  Workforce Management System
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -79,7 +79,9 @@
                   <img src="@/assets/img/icon/30.svg" alt="img">
                 </div>
                 <div class="content">
-                  <h3><NuxtLink to="/services/details">Vendor Management System</NuxtLink></h3>
+                  <h3>
+                    <NuxtLink to="/services/details">Vendor Management System</NuxtLink>
+                  </h3>
                   <p>Centralize vendor data, monitor performance, and optimize procurement processes with ease.</p>
                 </div>
               </div>
@@ -91,8 +93,11 @@
                   <img src="@/assets/img/icon/31.svg" alt="img">
                 </div>
                 <div class="content">
-                  <h3><NuxtLink to="/services/details">Compliance Management</NuxtLink></h3>
-                  <p>Stay compliant with regulatory standards through automated audits, alerts, and documentation tools.</p>
+                  <h3>
+                    <NuxtLink to="/services/details">Compliance Management System</NuxtLink>
+                  </h3>
+                  <p>Stay compliant with regulatory standards through automated audits, alerts, and documentation.
+                  </p>
                 </div>
               </div>
             </div>
@@ -103,21 +108,110 @@
                   <img src="@/assets/img/icon/32.svg" alt="img">
                 </div>
                 <div class="content">
-                  <h3><NuxtLink to="/services/details">Inventory Management System</NuxtLink></h3>
+                  <h3>
+                    <NuxtLink to="/services/details">Inventory Management System</NuxtLink>
+                  </h3>
                   <p>Gain real-time visibility into inventory levels, reduce waste, and streamline stock control.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6">
+              <div class="service-details-box-items">
+                <div class="icon">
+
+                  <img src="@/assets/img/icon/32.svg" alt="img">
+                </div>
+                <div class="content">
+                  <h3>
+                    <NuxtLink to="/services/details">Home Inspection System</NuxtLink>
+                  </h3>
+                  <p>Digitize inspection processes, generate instant reports, and maintain high standards of property
+                    assessments.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6">
+              <div class="service-details-box-items">
+                <div class="icon">
+
+                  <img src="@/assets/img/icon/32.svg" alt="img">
+                </div>
+                <div class="content">
+                  <h3>
+                    <NuxtLink to="/services/details">Billing & Invoicing System</NuxtLink>
+                  </h3>
+                  <p>Simplify billing cycles, automate invoicing, enhance reporting, and improve cash flow management seamlessly.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6">
+              <div class="service-details-box-items">
+                <div class="icon">
+
+                  <img src="@/assets/img/icon/32.svg" alt="img">
+                </div>
+                <div class="content">
+                  <h3>
+                    <NuxtLink to="/services/details">Hospital Management System</NuxtLink>
+                  </h3>
+                  <p>Manage patient records, appointments, billing, and hospital operations in a unified platform.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6">
+              <div class="service-details-box-items">
+                <div class="icon">
+
+                  <img src="@/assets/img/icon/32.svg" alt="img">
+                </div>
+                <div class="content">
+                  <h3>
+                    <NuxtLink to="/services/details">Asset Management System</NuxtLink>
+                  </h3>
+                  <p>Monitor, track, and optimize the lifecycle of assets to maximize operational efficiency.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6">
+              <div class="service-details-box-items">
+                <div class="icon">
+
+                  <img src="@/assets/img/icon/32.svg" alt="img">
+                </div>
+                <div class="content">
+                  <h3>
+                    <NuxtLink to="/services/details">Workforce Management System</NuxtLink>
+                  </h3>
+                  <p>Schedule shifts, track time and attendance, and enhance workforce productivity effortlessly.</p>
+                </div>
+              </div>
+            </div>
+
+               <div class="col-xl-4 col-lg-6 col-md-6">
+              <div class="service-details-box-items">
+                <div class="icon">
+
+                  <img src="@/assets/img/icon/32.svg" alt="img">
+                </div>
+                <div class="content">
+                  <h3>
+                    <NuxtLink to="/services/details">Help Desk & Ticketing System</NuxtLink>
+                  </h3>
+                  <p>Streamline support with ticket tracking, automated responses, and efficient issue resolution.</p>
                 </div>
               </div>
             </div>
           </div>
           <h3>
-         Why Partner with CodeSphere?
+            Why Partner with CodeSphere?
           </h3>
           <p>
-           We build flexible, scalable systems designed to grow with your business. Our tools are built with user-friendly interfaces, strong security, and seamless integration capabilities.<br/>
-           📞 Ready to streamline your operations? Contact us today to get started!
+            We build flexible, scalable systems designed to grow with your business. Our tools are built with
+            user-friendly interfaces, strong security, and seamless integration capabilities.<br />
+            📞 Ready to streamline your operations? Contact us today to get started!
           </p>
           <!-- <div class="slider-button d-flex align-items-center justify-content-between"> -->
-            <!-- <div class="d-flex align-items-center gap-xxl-4 gap-3 gap-2">
+          <!-- <div class="d-flex align-items-center gap-xxl-4 gap-3 gap-2">
               <button class="cmn-prev cmn-border d-center">
                 <i class="fa-solid fa-arrow-left"></i>
               </button>
@@ -125,7 +219,7 @@
                                 previous
                             </span>
             </div> -->
-            <!-- <div class="d-flex align-items-center gap-xxl-4 gap-3 gap-2">
+          <!-- <div class="d-flex align-items-center gap-xxl-4 gap-3 gap-2">
                             <span class="fw-bold white-clr previus-text text-capitalize">
                                 Next
                             </span>
@@ -140,6 +234,4 @@
   </section>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

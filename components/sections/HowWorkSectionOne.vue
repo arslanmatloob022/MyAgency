@@ -18,7 +18,7 @@
         <img src="@/assets/img/choose-us/line-shape-2.png" alt="img">
       </div>
       <div class="row">
-        <div class="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
+        <div class="col-lg-4 wow fadeInUp mt-3" data-wow-delay=".3s">
           <div class="how-work-items">
             <div class="how-work-img">
               <img src="@/assets/img/how-work/01.png" alt="img">
@@ -27,11 +27,12 @@
               </div>
             </div>
             <div class="how-work-content">
-              <p>We begin by deeply understanding your goals and challenges. Then we  translate  them into a strategic blueprint — a <br> clear plan that lays the foundation <br> for success. </p>
+              <h3>Planning and Strategy</h3>
+              <p>We begin by conducting a thorough requirement analysis to understand your goals and challenges. This helps us define the project roadmap, choose the right technology stack, and identify key milestones to ensure clarity and <br/> alignment  from day one. </p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 wow fadeInUp" data-wow-delay=".5s">
+        <div class="col-lg-4 wow fadeInUp mt-3 " data-wow-delay=".5s">
           <div class="how-work-items">
             <div class="how-work-img">
               <img src="@/assets/img/how-work/02.png" alt="img">
@@ -40,11 +41,12 @@
               </div>
             </div>
             <div class="how-work-content">
-              <p>Through wireframes, mockups, and agile development, we design thoughtful experiences and build solid,  scalable <br> products tailored to your <br> audience. </p>
+              <h3>Design and Development</h3>
+              <p>Next, we create detailed wireframes and mockups, followed by user-centric UI/UX design. Our expert developers bring  designs to life by front-end and back-end development, database integration, and third-party API connections, that your product is both visually appealing and technically sound. </p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 wow fadeInUp" data-wow-delay=".7s">
+        <div class="col-lg-4 wow fadeInUp mt-3" data-wow-delay=".7s">
           <div class="how-work-items">
             <div class="how-work-img">
               <img src="@/assets/img/how-work/03.png" alt="img">
@@ -53,7 +55,8 @@
               </div>
             </div>
             <div class="how-work-content">
-              <p>Before anything goes live, we  test for performance, security, and usability.<br> Only when it’s perfect, we launch <br> — with confidence and quality <br> guaranteed. </p>
+              <h3>Testing & Launch</h3>
+              <p>Before launch, we perform rigorous functional, performance, and security testing to ensure reliability. Once perfected, we handle server setup, monitor performance, and provide <br/> ongoing updates, guaranteeing a <br/> scalable product experience </p>
             </div>
           </div>
         </div>

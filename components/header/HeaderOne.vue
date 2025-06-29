@@ -40,7 +40,7 @@ const { isOffcanvasOpen, isOverlayOpen, isBodyOverlayOpen, openOffcanvas } =
               </NuxtLink>
               <NuxtLink to="/" class="header-logo-2">
                  <img
-                  src="/Logos/LogoWhiteGreen/BCodeSphereS.png"
+                  src="/Logos/DarkLogos/CSDarkShortL.png"
                   alt="code_sphere_studios_logo"
                   height="50px"
                   

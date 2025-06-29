@@ -1443,7 +1443,7 @@ span {
 
 .cta-banner-wrapper {
   background-color: var(--theme);
-  padding: 80px 60px;
+  padding: 32px 60px;
   border-radius: 40px;
 }
 .cta-banner-wrapper.style-2 {
