@@ -50,7 +50,7 @@ onUnmounted(() => {
               :data-wow-delay="`${0.3 + index * 0.2}s`"
           >
             <div class="content">
-              <h3>
+              <h3 style="font-size: 23px;">
                 <NuxtLink :to="`/team/${member.link}`">{{ member.name }}</NuxtLink>
               </h3>
               <span>{{ member.role }}</span>
@@ -62,9 +62,9 @@ onUnmounted(() => {
             ></div>
             <div class="social-profile">
               <ul>
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://www.facebook.com/arslan.raajput.1"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/i_arslan_rao?igsh=cmV2aHQxdGxhcjhn"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="www.linkedin.com/in/raoarslanmatloob"><i class="fab fa-linkedin-in"></i></a></li>
               </ul>
               <span class="plus-btn">
                 <i class="fa-sharp fa-regular fa-share-nodes"></i>

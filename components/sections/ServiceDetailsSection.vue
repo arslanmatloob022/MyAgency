@@ -76,7 +76,7 @@
               <div class="service-details-box-items">
                 <div class="icon">
 
-                  <img src="@/assets/img/icon/30.svg" alt="img">
+                  <img src="@/assets/img/services-icons/vendor-management.png" alt="img">
                 </div>
                 <div class="content">
                   <h3>
@@ -90,7 +90,7 @@
               <div class="service-details-box-items">
                 <div class="icon">
 
-                  <img src="@/assets/img/icon/31.svg" alt="img">
+                  <img src="@/assets/img/services-icons/compliance-management.png" alt="img">
                 </div>
                 <div class="content">
                   <h3>
@@ -105,7 +105,7 @@
               <div class="service-details-box-items">
                 <div class="icon">
 
-                  <img src="@/assets/img/icon/32.svg" alt="img">
+                  <img src="@/assets/img/services-icons/inventory-managemnet.png" alt="img">
                 </div>
                 <div class="content">
                   <h3>
@@ -119,7 +119,7 @@
               <div class="service-details-box-items">
                 <div class="icon">
 
-                  <img src="@/assets/img/icon/32.svg" alt="img">
+                  <img src="@/assets/img/services-icons/inspection.png" alt="img">
                 </div>
                 <div class="content">
                   <h3>
@@ -134,7 +134,7 @@
               <div class="service-details-box-items">
                 <div class="icon">
 
-                  <img src="@/assets/img/icon/32.svg" alt="img">
+                  <img src="@/assets/img/services-icons/billing-invoicing.png" alt="img">
                 </div>
                 <div class="content">
                   <h3>
@@ -148,7 +148,7 @@
               <div class="service-details-box-items">
                 <div class="icon">
 
-                  <img src="@/assets/img/icon/32.svg" alt="img">
+                  <img src="@/assets/img/services-icons/hospital-management.png" alt="img">
                 </div>
                 <div class="content">
                   <h3>
@@ -162,7 +162,7 @@
               <div class="service-details-box-items">
                 <div class="icon">
 
-                  <img src="@/assets/img/icon/32.svg" alt="img">
+                  <img src="@/assets/img/services-icons/asset-management.png" alt="img">
                 </div>
                 <div class="content">
                   <h3>
@@ -176,7 +176,7 @@
               <div class="service-details-box-items">
                 <div class="icon">
 
-                  <img src="@/assets/img/icon/32.svg" alt="img">
+                  <img src="@/assets/img/services-icons/workforce-management.png" alt="img">
                 </div>
                 <div class="content">
                   <h3>
@@ -191,7 +191,7 @@
               <div class="service-details-box-items">
                 <div class="icon">
 
-                  <img src="@/assets/img/icon/32.svg" alt="img">
+                  <img src="@/assets/img/services-icons/help-desk.png" alt="img">
                 </div>
                 <div class="content">
                   <h3>

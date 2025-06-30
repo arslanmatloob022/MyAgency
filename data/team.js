@@ -5,46 +5,58 @@ export const teamMembers = [
         description:
             "Leading strategic direction and innovation in software development and technology solutions.",
     },
-    // {
-    //     name: "Arslan Matloob",
-    //     role: "CTO, CodeSphere",
-    //     description:
-    //         "Oversees the company’s technology strategy, ensuring scalable and secure systems.",
-    // },
-    // {
-    //     name: "Arslan Matloob",
-    //     role: "Back-end Developerr",
-    //     description:
-    //         "Specializes in server-side logic, APIs, and database architecture for applications.",
-    // },
-    // {
-    //     name: "Arslan Matloob",
-    //     role: "Senior Front-End",
-    //     description:
-    //         "Expert in crafting responsive, user-friendly interfaces using modern frameworks.",
-    // },
-    // {
-    //     name: "Arslan Matloob",
-    //     role: "DevOps",
-    //     description:
-    //         "Streamlines development and deployment processes with CI/CD and automation tools.",
-    // },
-    // {
-    //     name: "Arslan Matloob",
-    //     role: "SQA Engineer",
-    //     description:
-    //         "Ensures product quality through test planning, execution, and bug tracking systems.",
-    // },
-    // {
-    //     name: "Arslan Matloob",
-    //     role: "Mobile App Dev",
-    //     description:
-    //         "Builds high-performance mobile applications across iOS and Android platforms.",
-    // },
-    // {
-    //     name: "Ali Haider",
-    //     role: "Digital Marketing Specialist",
-    //     description:
-    //         "Drives online growth through SEO, content marketing, and social media strategy.",
-    // },
+    {
+    name: "Huraiza Hussan",
+    role: "App Developer",
+    description:
+      "Develops cross-platform mobile applications with seamless performance and engaging user experiences.",
+  },
+  {
+    name: "Syd Abdullah Hussain",
+    role: "React, Next Developer",
+    description:
+      "Builds dynamic web applications using React and Next.js, focusing on performance and scalability.",
+  },
+  {
+    name: "Muhammad Abdullah",
+    role: "UI/UX Designer",
+    description:
+      "Crafts intuitive user interfaces and exceptional user experiences with creative design solutions.",
+  },
+  {
+    name: "Muhammad Javaid",
+    role: "iOS Developer",
+    description:
+      "Specializes in building high-quality iOS applications with smooth performance and modern design.",
+  },
+  {
+    name: "Amna Ramzan",
+    role: "Vue, Nuxt Developer",
+    description:
+      "Develops interactive and fast web applications using Vue.js and Nuxt for a seamless user experience.",
+  },
+  {
+    name: "Ahsan Ali",
+    role: "SQA Engineer",
+    description:
+      "Ensures product reliability through rigorous testing, quality assurance processes, and bug tracking.",
+  },
+  {
+    name: "Muhammad Haseeb",
+    role: "SEO Expert",
+    description:
+      "Optimizes websites for search engines to boost visibility, traffic, and online presence effectively.",
+  },
+  {
+    name: "Talha Shahid",
+    role: "Python Django Developer",
+    description:
+      "Builds robust web applications and APIs with Django, ensuring security, scalability, and efficiency.",
+  },
+  {
+    name: "Hassan Younas",
+    role: "AI Expert Developer",
+    description:
+      "Creates intelligent solutions using artificial intelligence, machine learning, and data-driven insights.",
+  },
 ];

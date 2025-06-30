@@ -11,17 +11,17 @@
          Our process is simple, effective, and focused on results— guiding your idea <br>  from concept to launch with clarity at every step.
         </p>
       </div>
-      <div class="line-shape-1">
-        <img src="@/assets/img/choose-us/line-shape-1.png" alt="img">
+      <div class="line-shape-1" >
+        <img src="@/assets/img/choose-us/line-shape-1.png" alt="img" style="margin-bottom: 50px;">
       </div>
       <div class="line-shape-2">
-        <img src="@/assets/img/choose-us/line-shape-2.png" alt="img">
+        <img src="@/assets/img/choose-us/line-shape-2.png" alt="img" style="margin-bottom: 50px;margin-left: 30px;">
       </div>
       <div class="row">
         <div class="col-lg-4 wow fadeInUp " data-wow-delay=".3s">
           <div class="how-work-items">
             <div class="how-work-img">
-              <img src="@/assets/img/how-work/01.png" alt="img">
+              <img src="@/assets/img/how-work/planning-strategy.svg" alt="img">
               <div class="number">
                 01
               </div>
@@ -35,7 +35,7 @@
         <div class="col-lg-4 wow fadeInUp  " data-wow-delay=".5s">
           <div class="how-work-items">
             <div class="how-work-img">
-              <img src="@/assets/img/how-work/02.png" alt="img">
+              <img src="@/assets/img/how-work/design-development.png" alt="img">
               <div class="number">
                 02
               </div>
@@ -49,7 +49,7 @@
         <div class="col-lg-4 wow fadeInUp " data-wow-delay=".7s">
           <div class="how-work-items">
             <div class="how-work-img">
-              <img src="@/assets/img/how-work/03.png" alt="img">
+              <img src="@/assets/img/how-work/testing.svg" alt="img">
               <div class="number">
                 03
               </div>
