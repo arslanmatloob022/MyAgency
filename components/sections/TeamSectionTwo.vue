@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from "vue";
-import teamHoverImg from "@/assets/img/team/team-hover.png";
+import teamHoverImg from "/team/team-hover.png";
 import {teamMembers} from "~/data/team";
 
 const teamLineBoxes = ref<NodeListOf<Element> | null>(null);

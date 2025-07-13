@@ -5,7 +5,7 @@ const teamMembers = ref([
   {
     name: "Huraiza Hussan",
     role: "App Developer",
-    image: "/_nuxt/assets/img/team/01.png",
+    image: "/team/01.png",
     socialLinks: {
       facebook: "https://www.facebook.com/arslan.raajput.1",
       twitter: "https://x.com/blackshadowik?t=yDf4z4OXrLR7vJRbeKLyyQ&s=09",
@@ -16,7 +16,7 @@ const teamMembers = ref([
   {
     name: "Syd Abdullah Hussain",
     role: "React, Next Developer",
-    image: "/_nuxt/assets/img/team/02.png",
+    image: "/team/02.png",
     socialLinks: {
        facebook: "https://www.facebook.com/arslan.raajput.1",
       twitter: "https://x.com/blackshadowik?t=yDf4z4OXrLR7vJRbeKLyyQ&s=09",
@@ -27,7 +27,7 @@ const teamMembers = ref([
   {
     name: "Muhammad Abdullah",
     role: "UI/UX Designer",
-    image: "/_nuxt/assets/img/team/03.png",
+    image: "/team/03.png",
     socialLinks: {
       facebook: "https://www.facebook.com/arslan.raajput.1",
       twitter: "https://x.com/blackshadowik?t=yDf4z4OXrLR7vJRbeKLyyQ&s=09",
@@ -38,7 +38,7 @@ const teamMembers = ref([
   {
     name: "Muhammad Javaid",
     role: "iOS Developer",
-    image: "/_nuxt/assets/img/team/03.png",
+    image: "/team/03.png",
     socialLinks: {
       facebook: "https://www.facebook.com/arslan.raajput.1",
       twitter: "https://x.com/blackshadowik?t=yDf4z4OXrLR7vJRbeKLyyQ&s=09",
@@ -49,7 +49,7 @@ const teamMembers = ref([
   {
     name: "Amna Ramzan",
     role: "Vue, Nuxt Developer",
-    image: "/_nuxt/assets/img/team/05.png",
+    image: "/team/05.png",
     socialLinks: {
        facebook: "https://www.facebook.com/arslan.raajput.1",
       twitter: "https://x.com/blackshadowik?t=yDf4z4OXrLR7vJRbeKLyyQ&s=09",
@@ -60,7 +60,7 @@ const teamMembers = ref([
   {
     name: "Ahsan Ali",
     role: "SQA Engineer",
-    image: "/_nuxt/assets/img/team/06.png",
+    image: "/team/06.png",
     socialLinks: {
       facebook: "https://www.facebook.com/arslan.raajput.1",
       twitter: "https://x.com/blackshadowik?t=yDf4z4OXrLR7vJRbeKLyyQ&s=09",
@@ -71,7 +71,7 @@ const teamMembers = ref([
   {
     name: "Muhammad Haseeb",
     role: "SEO Expert",
-    image: "/_nuxt/assets/img/team/07.png",
+    image: "/team/07.png",
     socialLinks: {
       facebook: "https://www.facebook.com/arslan.raajput.1",
       twitter: "https://x.com/blackshadowik?t=yDf4z4OXrLR7vJRbeKLyyQ&s=09",
@@ -82,7 +82,7 @@ const teamMembers = ref([
   {
     name: "Talha Shahid",
     role: "Python Django Developer",
-    image: "/_nuxt/assets/img/team/01.png",
+    image: "/team/01.png",
     socialLinks: {
      facebook: "https://www.facebook.com/arslan.raajput.1",
       twitter: "https://x.com/blackshadowik?t=yDf4z4OXrLR7vJRbeKLyyQ&s=09",
@@ -93,7 +93,7 @@ const teamMembers = ref([
   {
     name: "Hassan Younas",
     role: "AI Expert Developer",
-    image: "/_nuxt/assets/img/team/01.png",
+    image: "/team/01.png",
     socialLinks: {
         facebook: "https://www.facebook.com/arslan.raajput.1",
       twitter: "https://x.com/blackshadowik?t=yDf4z4OXrLR7vJRbeKLyyQ&s=09",

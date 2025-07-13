@@ -6,7 +6,7 @@
       <div class="team-details-wrapper">
         <div class="team-details-items">
           <div class="thumb">
-            <img src="@/assets/img/team/details-1.jpg" alt="img" />
+            <img src="/team/details-1.jpg" alt="img" />
           </div>
           <div class="content">
             <div class="cont">

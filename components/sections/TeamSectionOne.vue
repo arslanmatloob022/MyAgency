@@ -25,27 +25,27 @@
               <ul class="nav wow fadeInUp" data-wow-delay=".3s">
                 <li class="nav-item">
                   <a href="#img-1" data-bs-toggle="tab" class="nav-link active">
-                    <img src="@/assets/img/team/sm-1.jpg" alt="img">
+                    <img src="/team/sm-1.jpg" alt="img">
                   </a>
                 </li>
                 <li class="nav-item">
                   <a href="#img-2" data-bs-toggle="tab" class="nav-link">
-                    <img src="@/assets/img/team/sm-2.jpg" alt="img">
+                    <img src="/team/sm-2.jpg" alt="img">
                   </a>
                 </li>
                 <li class="nav-item">
                   <a href="#img-3" data-bs-toggle="tab" class="nav-link">
-                    <img src="@/assets/img/team/sm-3.jpg" alt="img">
+                    <img src="/team/sm-3.jpg" alt="img">
                   </a>
                 </li>
                 <li class="nav-item">
                   <a href="#img-4" data-bs-toggle="tab" class="nav-link">
-                    <img src="@/assets/img/team/sm-4.jpg" alt="img">
+                    <img src="/team/sm-4.jpg" alt="img">
                   </a>
                 </li>
                 <li class="nav-item">
                   <a href="#img-5" data-bs-toggle="tab" class="nav-link">
-                    <img src="@/assets/img/team/sm-5.jpg" alt="img">
+                    <img src="/team/sm-5.jpg" alt="img">
                   </a>
                 </li>
               </ul>
@@ -55,27 +55,27 @@
             <div class="tab-content">
               <div id="img-1" class="tab-pane fade">
                 <div class="team-image">
-                  <img src="@/assets/img/team/04.png" alt="img">
+                  <img src="/team/04.png" alt="img">
                 </div>
               </div>
               <div id="img-2" class="tab-pane fade show active">
                 <div class="team-image">
-                  <img src="@/assets/img/team/04.png" alt="img">
+                  <img src="/team/04.png" alt="img">
                 </div>
               </div>
               <div id="img-3" class="tab-pane fade">
                 <div class="team-image">
-                  <img src="@/assets/img/team/01.png" alt="img">
+                  <img src="/team/01.png" alt="img">
                 </div>
               </div>
               <div id="img-4" class="tab-pane fade">
                 <div class="team-image">
-                  <img src="@/assets/img/team/02.png" alt="img">
+                  <img src="/team/02.png" alt="img">
                 </div>
               </div>
               <div id="img-5" class="tab-pane fade">
                 <div class="team-image">
-                  <img src="@/assets/img/team/03.png" alt="img">
+                  <img src="/team/03.png" alt="img">
                 </div>
               </div>
             </div>

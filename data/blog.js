@@ -3,7 +3,7 @@ export const blogs = [
   
     id: 1,
     title: 'Remote Workforce Management',
-    image: '/_nuxt/assets/img/news/remote1.webp',
+    image: '/news/remote1.webp',
 description: 'Remote workforce management isn\'t just another corporate buzzword—it\'s the difference between a ' +
   'distributed team that thrives and one that quietly falls apart in their pajamas. ' +
   'I\'ve spent five years helping companies transition from office-centric to remote-first structures. ' +
@@ -56,8 +56,8 @@ description: 'Remote workforce management isn\'t just another corporate buzzword
 
   `,
    blogImages: [
-    '/_nuxt/assets/img/news/remoteblog4.jpg',
-    '/_nuxt/assets/img/news/remoteblog2.webp'
+    '/news/remoteblog4.jpg',
+    '/news/remoteblog2.webp'
   ],
 tagline:`Manage Teams Remotely, Lead with Confidence.`
 
@@ -65,14 +65,14 @@ tagline:`Manage Teams Remotely, Lead with Confidence.`
   {
     id: 2,
     title: 'Pioneering Technology for IT That Transforms Expertise Tech for Tomorrow',
-    image: '/_nuxt/assets/img/news/post-2.jpg',
+    image: '/news/post-2.jpg',
     description: 'Pellentesque egestas rutrum nibh facilisis ultrices. Phasellus in magna ut orci malesuada the sollicitudin.',
     fullContent: `Lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce eleifend porta arcu In hac habitasse platea dictumst...`
   },
   {
     id: 3,
     title: 'Through the Technological Not Just Informs Expertise Tech for Tomorrow',
-    image: '/_nuxt/assets/img/news/post-3.jpg',
+    image: '/news/post-3.jpg',
     description: 'Pellentesque egestas rutrum nibh facilisis ultrices. Phasellus in magna ut orci malesuada.',
     fullContent: `Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris...`
   }

@@ -15,7 +15,7 @@
         <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
           <div class="news-box-items">
             <div class="news-img">
-              <img src="@/assets/img/news/01.jpg" alt="img">
+              <img src="/news/01.jpg" alt="img">
             </div>
             <div class="news-content">
               <ul class="date-list">
@@ -36,7 +36,7 @@
         <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
           <div class="news-box-items">
             <div class="news-img">
-              <img src="@/assets/img/news/02.jpg" alt="img">
+              <img src="/news/02.jpg" alt="img">
             </div>
             <div class="news-content">
               <ul class="date-list">
@@ -57,7 +57,7 @@
         <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
           <div class="news-box-items">
             <div class="news-img">
-              <img src="@/assets/img/news/03.jpg" alt="img">
+              <img src="/news/03.jpg" alt="img">
             </div>
             <div class="news-content">
               <ul class="date-list">
