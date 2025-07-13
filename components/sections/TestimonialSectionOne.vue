@@ -10,7 +10,7 @@
             <div class="testimonial-logo wow fadeInUp" data-wow-delay=".3s">
               <div class="logo-image">
                 
-                <img   src="/Logos/DarkLogos/CSDarkShortL.png" style="width: 36vh;height: 20vh;"
+                <img   src="/Logos/DarkLogos/CSDarkShortL.png" style="width: 200px;height: 97px"
                   alt="code_sphere_studios_logo">
               </div>
             </div>

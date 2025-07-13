@@ -80,7 +80,7 @@
                 </div>
                 <div class="content">
                   <h3>
-                    <NuxtLink to="/services/details">Vendor Management System</NuxtLink>
+                    <NuxtLink to="/services/details">Vendor Mgmt. Sys.</NuxtLink>
                   </h3>
                   <p>Centralize vendor data, monitor performance, and optimize procurement processes with ease.</p>
                 </div>
@@ -94,7 +94,7 @@
                 </div>
                 <div class="content">
                   <h3>
-                    <NuxtLink to="/services/details">Compliance Management System</NuxtLink>
+                    <NuxtLink to="/services/details">Compliance Mgmt. Sys.</NuxtLink>
                   </h3>
                   <p>Stay compliant with regulatory standards through automated audits, alerts, and documentation.
                   </p>
@@ -109,7 +109,7 @@
                 </div>
                 <div class="content">
                   <h3>
-                    <NuxtLink to="/services/details">Inventory Management System</NuxtLink>
+                    <NuxtLink to="/services/details">Inventory Mgmt. Sys.</NuxtLink>
                   </h3>
                   <p>Gain real-time visibility into inventory levels, reduce waste, and streamline stock control.</p>
                 </div>
@@ -123,7 +123,7 @@
                 </div>
                 <div class="content">
                   <h3>
-                    <NuxtLink to="/services/details">Home Inspection System</NuxtLink>
+                    <NuxtLink to="/services/details">Home Inspection Sys</NuxtLink>
                   </h3>
                   <p>Digitize inspection processes, generate instant reports, and maintain high standards of property
                     assessments.</p>
@@ -138,7 +138,7 @@
                 </div>
                 <div class="content">
                   <h3>
-                    <NuxtLink to="/services/details">Billing & Invoicing System</NuxtLink>
+                    <NuxtLink to="/services/details">Billing & Invoicing Sys</NuxtLink>
                   </h3>
                   <p>Simplify billing cycles, automate invoicing, enhance reporting, and improve cash flow management seamlessly.</p>
                 </div>
@@ -152,9 +152,9 @@
                 </div>
                 <div class="content">
                   <h3>
-                    <NuxtLink to="/services/details">Hospital Management System</NuxtLink>
+                    <NuxtLink to="/services/details">Hospital Mgmt. Sys.</NuxtLink>
                   </h3>
-                  <p>Manage patient records, appointments, billing, and hospital operations in a unified platform.</p>
+                  <p>Manage patient records, appointments, billing, and hospital operations in a unified, secure, and efficient platform.</p>
                 </div>
               </div>
             </div>
@@ -166,7 +166,7 @@
                 </div>
                 <div class="content">
                   <h3>
-                    <NuxtLink to="/services/details">Asset Management System</NuxtLink>
+                    <NuxtLink to="/services/details">Asset Mgmt. Sys.</NuxtLink>
                   </h3>
                   <p>Monitor, track, and optimize the lifecycle of assets to maximize operational efficiency.</p>
                 </div>
@@ -180,7 +180,7 @@
                 </div>
                 <div class="content">
                   <h3>
-                    <NuxtLink to="/services/details">Workforce Management System</NuxtLink>
+                    <NuxtLink to="/services/details">Workforce Mgmt. Sys.</NuxtLink>
                   </h3>
                   <p>Schedule shifts, track time and attendance, and enhance workforce productivity effortlessly.</p>
                 </div>
@@ -195,7 +195,7 @@
                 </div>
                 <div class="content">
                   <h3>
-                    <NuxtLink to="/services/details">Help Desk & Ticketing System</NuxtLink>
+                    <NuxtLink to="/services/details">Help Desk & Ticketing Sys</NuxtLink>
                   </h3>
                   <p>Streamline support with ticket tracking, automated responses, and efficient issue resolution.</p>
                 </div>

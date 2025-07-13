@@ -22,7 +22,8 @@ import {menuItems} from "~/data/menus";
       </template>
 
       <!-- Submenu -->
-      <ul v-if="item.submenu" class="submenu" :class="{'has-homemenu' : item.hasHomeMenu}">
+       <!-- :class="{'has-homemenu' : item.hasHomeMenu}" -->
+      <ul v-if="item.submenu" class="submenu" >
         <li v-if="item.hasHomeMenu">
           <div class="homemenu-items">
             <div

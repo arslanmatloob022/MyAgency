@@ -20,7 +20,7 @@
                   </div>
                   <div class="content">
                     <h6>
-                      2118 Thornridge Cir. Syracuse
+                      Evergreen, CO 80437, USA
                     </h6>
                   </div>
                 </div>
@@ -31,7 +31,7 @@
                   </div>
                   <div class="content">
                     <h6>
-                      <a href="tel:0123456789101">0123456789101</a>
+                      <a href="tel:+92300 7626 555">+92300 7626 555</a>
                     </h6>
                   </div>
                 </div>
@@ -43,7 +43,7 @@
                   <div class="content">
                     <h6>
                       <a href="mailto:jessica.hanson@example.com">
-                        jessica.hanson@example.com
+                        codesphere@gmail.com
                       </a>
                     </h6>
                   </div>
@@ -76,10 +76,10 @@
                       <div class="form">
                         <select class="single-select nice-select w-100">
                           <option>Select Service</option>
-                          <option>Service 01</option>
-                          <option>Service 02</option>
-                          <option>Service 03</option>
-                          <option>Service 04</option>
+                          <option>Web development</option>
+                          <option>Mobile App Development</option>
+                          <option>Desktop Application</option>
+                          <option>Artificial Intelligence</option>
                         </select>
                       </div>
                     </div>

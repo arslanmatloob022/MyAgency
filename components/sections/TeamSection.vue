@@ -7,10 +7,10 @@ const teamMembers = ref([
     role: "App Developer",
     image: "/_nuxt/assets/img/team/01.png",
     socialLinks: {
-      facebook: "#",
-      twitter: "#",
-      linkedin: "#",
-      instagram: "#",
+      facebook: "https://www.facebook.com/arslan.raajput.1",
+      twitter: "https://x.com/blackshadowik?t=yDf4z4OXrLR7vJRbeKLyyQ&s=09",
+      linkedin: "www.linkedin.com/in/raoarslanmatloob",
+      instagram: " https://www.instagram.com/i_arslan_rao?igsh=cmV2aHQxdGxhcjhn",
     },
   },
   {
@@ -18,10 +18,10 @@ const teamMembers = ref([
     role: "React, Next Developer",
     image: "/_nuxt/assets/img/team/02.png",
     socialLinks: {
-      facebook: "#",
-      twitter: "#",
-      linkedin: "#",
-      instagram: "#",
+       facebook: "https://www.facebook.com/arslan.raajput.1",
+      twitter: "https://x.com/blackshadowik?t=yDf4z4OXrLR7vJRbeKLyyQ&s=09",
+      linkedin: "www.linkedin.com/in/raoarslanmatloob",
+      instagram: " https://www.instagram.com/i_arslan_rao?igsh=cmV2aHQxdGxhcjhn",
     },
   },
   {
@@ -29,10 +29,10 @@ const teamMembers = ref([
     role: "UI/UX Designer",
     image: "/_nuxt/assets/img/team/03.png",
     socialLinks: {
-      facebook: "#",
-      twitter: "#",
-      linkedin: "#",
-      instagram: "#",
+      facebook: "https://www.facebook.com/arslan.raajput.1",
+      twitter: "https://x.com/blackshadowik?t=yDf4z4OXrLR7vJRbeKLyyQ&s=09",
+      linkedin: "www.linkedin.com/in/raoarslanmatloob",
+      instagram: " https://www.instagram.com/i_arslan_rao?igsh=cmV2aHQxdGxhcjhn",
     },
   },
   {
@@ -40,10 +40,10 @@ const teamMembers = ref([
     role: "iOS Developer",
     image: "/_nuxt/assets/img/team/03.png",
     socialLinks: {
-      facebook: "#",
-      twitter: "#",
-      linkedin: "#",
-      instagram: "#",
+      facebook: "https://www.facebook.com/arslan.raajput.1",
+      twitter: "https://x.com/blackshadowik?t=yDf4z4OXrLR7vJRbeKLyyQ&s=09",
+      linkedin: "www.linkedin.com/in/raoarslanmatloob",
+      instagram: " https://www.instagram.com/i_arslan_rao?igsh=cmV2aHQxdGxhcjhn",
     },
   },
   {
@@ -51,10 +51,10 @@ const teamMembers = ref([
     role: "Vue, Nuxt Developer",
     image: "/_nuxt/assets/img/team/05.png",
     socialLinks: {
-      facebook: "#",
-      twitter: "#",
-      linkedin: "#",
-      instagram: "#",
+       facebook: "https://www.facebook.com/arslan.raajput.1",
+      twitter: "https://x.com/blackshadowik?t=yDf4z4OXrLR7vJRbeKLyyQ&s=09",
+      linkedin: "www.linkedin.com/in/raoarslanmatloob",
+      instagram: " https://www.instagram.com/i_arslan_rao?igsh=cmV2aHQxdGxhcjhn",
     },
   },
   {
@@ -62,10 +62,10 @@ const teamMembers = ref([
     role: "SQA Engineer",
     image: "/_nuxt/assets/img/team/06.png",
     socialLinks: {
-      facebook: "#",
-      twitter: "#",
-      linkedin: "#",
-      instagram: "#",
+      facebook: "https://www.facebook.com/arslan.raajput.1",
+      twitter: "https://x.com/blackshadowik?t=yDf4z4OXrLR7vJRbeKLyyQ&s=09",
+      linkedin: "www.linkedin.com/in/raoarslanmatloob",
+      instagram: " https://www.instagram.com/i_arslan_rao?igsh=cmV2aHQxdGxhcjhn",
     },
   },
   {
@@ -73,10 +73,10 @@ const teamMembers = ref([
     role: "SEO Expert",
     image: "/_nuxt/assets/img/team/07.png",
     socialLinks: {
-      facebook: "#",
-      twitter: "#",
-      linkedin: "#",
-      instagram: "#",
+      facebook: "https://www.facebook.com/arslan.raajput.1",
+      twitter: "https://x.com/blackshadowik?t=yDf4z4OXrLR7vJRbeKLyyQ&s=09",
+      linkedin: "www.linkedin.com/in/raoarslanmatloob",
+      instagram: " https://www.instagram.com/i_arslan_rao?igsh=cmV2aHQxdGxhcjhn",
     },
   },
   {
@@ -84,10 +84,10 @@ const teamMembers = ref([
     role: "Python Django Developer",
     image: "/_nuxt/assets/img/team/01.png",
     socialLinks: {
-      facebook: "#",
-      twitter: "#",
-      linkedin: "#",
-      instagram: "#",
+     facebook: "https://www.facebook.com/arslan.raajput.1",
+      twitter: "https://x.com/blackshadowik?t=yDf4z4OXrLR7vJRbeKLyyQ&s=09",
+      linkedin: "www.linkedin.com/in/raoarslanmatloob",
+      instagram: " https://www.instagram.com/i_arslan_rao?igsh=cmV2aHQxdGxhcjhn",
     },
   },
   {
@@ -95,10 +95,10 @@ const teamMembers = ref([
     role: "AI Expert Developer",
     image: "/_nuxt/assets/img/team/01.png",
     socialLinks: {
-      facebook: "#",
-      twitter: "#",
-      linkedin: "#",
-      instagram: "#",
+        facebook: "https://www.facebook.com/arslan.raajput.1",
+      twitter: "https://x.com/blackshadowik?t=yDf4z4OXrLR7vJRbeKLyyQ&s=09",
+      linkedin: "www.linkedin.com/in/raoarslanmatloob",
+      instagram: " https://www.instagram.com/i_arslan_rao?igsh=cmV2aHQxdGxhcjhn",
     },
   },
 ])
@@ -125,7 +125,7 @@ const teamMembers = ref([
             </div>
             <div class="team-content">
               <h3>
-                <NuxtLink to="/team/details">{{ member.name }}</NuxtLink>
+               {{ member.name }}
               </h3>
               <p>{{ member.role }}</p>
               <div class="social-icon d-flex align-items-center">

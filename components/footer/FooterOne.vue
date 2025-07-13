@@ -68,7 +68,7 @@
           >
             <div class="single-footer-widget">
               <div class="wid-title">
-                <h3>Service</h3>
+                <h3>Services</h3>
               </div>
               <ul class="list-items">
                 <li>
@@ -119,10 +119,10 @@ Reach out today — let's build something great together.
                   </button>
                 </div>
                 <div class="social-icon d-flex align-items-center">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.facebook.com/arslan.raajput.1"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://x.com/blackshadowik?t=yDf4z4OXrLR7vJRbeKLyyQ&s=09"><i class="fab fa-twitter"></i></a>
+                  <a href="www.linkedin.com/in/raoarslanmatloob"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="https://www.instagram.com/i_arslan_rao?igsh=cmV2aHQxdGxhcjhn"><i class="fab fa-instagram"></i></a>
                 </div>
               </div>
             </div>
