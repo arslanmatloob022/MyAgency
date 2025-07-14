@@ -64,7 +64,7 @@ tagline:`Manage Teams Remotely, Lead with Confidence.`
   },
   {
     id: 2,
-    title: 'Pioneering Technology for IT That Transforms Expertise Tech for Tomorrow',
+    title: 'Compliance Management',
     image: '/news/post-2.jpg',
     description: 'Pellentesque egestas rutrum nibh facilisis ultrices. Phasellus in magna ut orci malesuada the sollicitudin.',
     fullContent: `Lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce eleifend porta arcu In hac habitasse platea dictumst...`
