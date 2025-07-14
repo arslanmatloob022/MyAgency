@@ -58,7 +58,7 @@ const blog = blogs.find(item => item.id === blogId)
 
                 <div class="hilight-text mt-4">
                   <p>
-{{ blog.tagline }}
+                  {{ blog.tagline }}
                   </p>
                 </div>
               </div>
@@ -66,7 +66,7 @@ const blog = blogs.find(item => item.id === blogId)
           </div>
         </div>
 
-        <!-- Optional Sidebar (Commented Out) -->
+        <!-- Optional Sidebar (Commented Out section) -->
         <!--
         <div class="col-12 col-lg-4">
           <div class="main-sidebar sticky-style">
