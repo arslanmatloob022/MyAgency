@@ -5,7 +5,7 @@ import CtaSectionOne from "~/components/sections/CtaSectionOne.vue";
 
 const menus = ref([
   {
-    label: 'our service',
+    label: 'our services',
     to: ''
   }
 ]);
@@ -13,7 +13,7 @@ const menus = ref([
 
 <template>
   <!-- Breadcrumb Section Start -->
-  <Breadcrumb title="our service" :menus="menus" />
+  <Breadcrumb title="our services" :menus="menus" />
   <!-- Breadcrumb Section End -->
 
   <!-- Service Section Start -->

@@ -42,11 +42,11 @@
   }
   .icon-06:before {
     content: "\e905";
-    color: #fff;
+    /* color: #fff; */
   }
   .icon-07:before {
     content: "\e906";
-    color: #fff;
+    /* color: #fff; */
   }
   .icon-08:before {
     content: "\e907";

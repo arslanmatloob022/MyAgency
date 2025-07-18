@@ -5,7 +5,7 @@ import CtaSectionOne from "~/components/sections/CtaSectionOne.vue";
 
 const menus = ref([
   {
-    label: 'Blog',
+    label: 'Blogs',
     to: '/news'
   },
   {

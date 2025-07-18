@@ -1,5 +1,7 @@
 <script setup lang="ts">
+import { blogs } from '~/data/blog'
 
+const topBlogs = blogs.slice(0, 3)
 </script>
 
 <template>
@@ -8,70 +10,40 @@
       <div class="section-title text-center">
         <h2 class="wow fadeInUp" data-wow-delay=".3s">Blog And News</h2>
         <p class="mt-3 wow fadeInUp" data-wow-delay=".5s">
-          Information Technology is a rapidly evolving field that encompasses the study and <br> application of computing technology to solve complex problems
+          Information Technology is a rapidly evolving field that encompasses the study and
+          <br />
+          application of computing technology to solve complex problems.
         </p>
       </div>
+
       <div class="row">
-        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+        <div
+          class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+          v-for="(blog, index) in topBlogs"
+          :key="blog.id"
+          :data-wow-delay="`.${3 + index * 2}s`"
+        >
           <div class="news-box-items">
             <div class="news-img">
-              <img src="/news/01.jpg" alt="img">
+              <img :src="blog.image" :alt="blog.title" style="height: 250px;" />
             </div>
             <div class="news-content">
               <ul class="date-list">
-                <li>
+                <li class="font">
                   <i class="fa-solid fa-user"></i>
                   By admin
                 </li>
-                <li>
+                <li class="font">
                   <i class="fa-solid fa-calendar-days"></i>
-                  20, june 2025
+                  {{ blog.date }}
                 </li>
               </ul>
-              <h3><NuxtLink to="/news/details">Driving Success Through the Technological Expertise</NuxtLink></h3>
-              <NuxtLink to="/news/details" class="link-btn">Read More <i class="icon-arrow-right"></i></NuxtLink>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-          <div class="news-box-items">
-            <div class="news-img">
-              <img src="/news/02.jpg" alt="img">
-            </div>
-            <div class="news-content">
-              <ul class="date-list">
-                <li>
-                  <i class="fa-solid fa-user"></i>
-                  By admin
-                </li>
-                <li>
-                  <i class="fa-solid fa-calendar-days"></i>
-                  20, june 2025
-                </li>
-              </ul>
-              <h3><NuxtLink to="/news/details">Pioneering Technology for  IT That Transforms</NuxtLink></h3>
-              <NuxtLink to="/news/details" class="link-btn">Read More <i class="icon-arrow-right"></i></NuxtLink>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-          <div class="news-box-items">
-            <div class="news-img">
-              <img src="/news/03.jpg" alt="img">
-            </div>
-            <div class="news-content">
-              <ul class="date-list">
-                <li>
-                  <i class="fa-solid fa-user"></i>
-                  By admin
-                </li>
-                <li>
-                  <i class="fa-solid fa-calendar-days"></i>
-                  20, june 2025
-                </li>
-              </ul>
-              <h3><NuxtLink to="/news/details">Through the Technological Not Just Informs</NuxtLink></h3>
-              <NuxtLink to="/news/details" class="link-btn">Read More <i class="icon-arrow-right"></i></NuxtLink>
+              <h3 class="font">
+                <NuxtLink :to="`/news/${blog.id}`">{{ blog.title }}</NuxtLink>
+              </h3>
+              <NuxtLink :to="`/news/${blog.id}`" class="link-btn font">
+                Read More <i class="icon-arrow-right"></i>
+              </NuxtLink>
             </div>
           </div>
         </div>
@@ -81,5 +53,8 @@
 </template>
 
 <style scoped>
-
+.font{
+      font-size: 15px!important;
+}
+/* You can add your own styles */
 </style>

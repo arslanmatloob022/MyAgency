@@ -18,7 +18,8 @@ const blog = blogs.find(item => item.id === blogId)
           <div class="news-post-details">
             <div class="single-news-post">
               <div class="post-featured-thumb">
-                <img :src="blog.image" alt="Featured Image" />
+                <img :src="blog.image" alt="Featured Image" 
+                 />
               </div>
               <div class="post-content">
                 <ul class="post-list d-flex align-items-center">
@@ -28,7 +29,7 @@ const blog = blogs.find(item => item.id === blogId)
                   </li>
                   <li>
                     <i class="fa-solid fa-calendar-days"></i>
-                    18 Dec, 2025
+                    {{ blog.date }}
                   </li>
                   <li>
                     <i class="fa-solid fa-tag"></i>
@@ -37,14 +38,14 @@ const blog = blogs.find(item => item.id === blogId)
                 </ul>
 
                 <h3>{{ blog.title }}</h3>
-                <p class="fst-italic text-muted mb-2">{{ blog.tagline }}</p> <!-- Tagline -->
+                <!-- <p class="fst-italic text-muted mb-2">{{ blog.tagline }}</p>  -->
                 <p class="mb-3">{{ blog.description }}</p>
 
                 <h4>{{ blog.fullContentHeading }}</h4>
                 <div class="mt-4 mb-5" v-html="blog.fullContent"></div>
 
                 <!-- Dynamic Blog Images Loop -->
-                <div class="row g-4" v-if="blog.blogImages && blog.blogImages.length">
+                <!-- <div class="row g-4" v-if="blog.blogImages && blog.blogImages.length">
                   <div
                     class="col-lg-6"
                     v-for="(img, index) in blog.blogImages"
@@ -54,7 +55,7 @@ const blog = blogs.find(item => item.id === blogId)
                       <img :src="img" :alt="'Blog Image ' + (index + 1)" />
                     </div>
                   </div>
-                </div>
+                </div> -->
 
                 <div class="hilight-text mt-4">
                   <p>

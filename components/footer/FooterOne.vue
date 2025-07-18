@@ -11,7 +11,7 @@
     <div class="container">
       <div class="footer-logo-area">
         <NuxtLink
-          to="/public"
+          to="/"
           class="footer-logo wow fadeInUp"
           data-wow-delay=".3s"
         >

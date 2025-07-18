@@ -25,7 +25,7 @@ defineProps({
           </li>
           <template v-for="menu in menus">
             <li>
-              <NuxtLink v-if="menu.to">
+              <NuxtLink  :href="menu.to" v-if="menu.to">
                 <i class="fas fa-chevron-right me-2"></i> {{ menu.label }}
               </NuxtLink>
               <template v-else>

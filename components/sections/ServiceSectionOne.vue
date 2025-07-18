@@ -11,23 +11,23 @@ const services = ref([
     link: '/services/details'
   },
    {
-    id: 1,
+    id: 2,
     title: 'Website Design',
    description: "We believe that a website is more than just a digital presence; it's a powerful tool that can elevate your brand and engage your audience. Our website design services are tailored to create visually stunning, user-friendly, and highly functional websites that align with your business goals and captivate your visitors. We create interfaces that are easy to navigate and enjoyable to use.",
-    iconClass: 'icon-03',
+    iconClass: 'icon-08',
    
     link: '/services/details'
   },
     {
-    id: 1,
+    id: 3,
     title: 'UI/UX Design',
-    description:"At CodeSphere Studios, we understand that an outstanding user interface (UI) and user experience (UX) are critical to the success of any digital product. Our  team is dedicated to creating intuitive, engaging, and seamless experiences that not only meet but exceed user expectations. By focusing on the user journey, we ensure your product is both beautiful and functional.We designs That srive engagement .",
+    description:"At CodeSphere Studios, we understand that an outstanding user interface (UI) and user experience (UX) are critical to the success of any digital product. Our  team is dedicated to creating intuitive, engaging, and seamless experiences that not only meet but exceed user expectations. By focusing on the user journey, we ensure your product is both beautiful and functional.",
     iconClass: 'icon-04',
    
     link: '/services/details'
   },
     {
-    id: 1,
+    id: 4,
     title: 'Web Security',
     description:"At CodeSphere Studios, we understand the critical importance of web security in today's digital landscape. Our dedicated team of security experts works tirelessly to safeguard your web applications and digital assets from potential threats, ensuring a secure, reliable and trustworthy online presence for your business.",
     iconClass: 'icon-05',
@@ -35,19 +35,19 @@ const services = ref([
     link: '/services/details'
   },
     {
-    id: 1,
+    id: 5,
     title: 'Mobile App Development',
-    description: "At CodeSphere Studios, we specialize in crafting cutting-edge mobile applications that deliver exceptional user experiences. Our team of expert developers, designers, and strategists work collaboratively to bring your mobile app ideas to life, ensuring that they are not only functional but also engaging and visually appealing.",
-    iconClass: 'icon-04',
+    description: "At CodeSphere Studios, we specialize in crafting cutting-edge mobile applications that deliver exceptional user experiences. Our team of expert developers  strategists work collaboratively to bring your mobile app ideas to life, ensuring that they are not only functional but also engaging and visually appealing.",
+    iconClass: 'icon-03',
    
     link: '/services/details'
   },
    {
-    id: 1,
+    id: 6,
     title: 'Software Consulting',
 description: "Expert Guidance for Your Projects\nOur software consulting services are designed to provide you with the expertise and guidance you need to succeed.\nWhether you need help with project management, software architecture, or technology strategy, our team of experienced consultants is here to help.",
 
-    iconClass: 'icon-04',
+    iconClass: 'icon-07',
    
     link: '/services/details'
   },
@@ -71,7 +71,7 @@ description: "Expert Guidance for Your Projects\nOur software consulting service
               <i :class="item.iconClass"></i>
             </div>
             <div class="content">
-              <h3><NuxtLink to="/services/details">
+              <h3 class="heading-font"><NuxtLink to="/services/details">
                 {{ item.title || 'N/A' }}</NuxtLink></h3>
               <p>{{ item.description }}</p>
               <NuxtLink :to="item.link" class="link-btn">Read More <span><i class="icon-arrow-right"></i></span></NuxtLink>
@@ -85,5 +85,7 @@ description: "Expert Guidance for Your Projects\nOur software consulting service
 </template>
 
 <style scoped>
-
+.heading-font{
+    font-size: 21px;
+}
 </style>

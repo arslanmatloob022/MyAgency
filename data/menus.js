@@ -54,10 +54,10 @@ export const menuItems = [
     //     ],
     // },
     {
-        title: "Blog",
+        title: "Blogs",
         link: "/news/details",
         submenu: [
-            { title: "Blog", link: "/news" },
+            { title: "Blogs", link: "/news" },
             // { title: "Blog Details", link: "/news/details" },
         ],
     },
