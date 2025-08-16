@@ -51,7 +51,7 @@ onUnmounted(() => {
           >
             <div class="content">
               <h3 style="font-size: 23px;">
-                <NuxtLink :to="`/team/${member.link}`">{{ member.name }}</NuxtLink>
+               {{ member.name }}
               </h3>
               <span>{{ member.role }}</span>
             </div>

@@ -18,14 +18,14 @@ const services = ref([
    
     link: '/services/details'
   },
-    {
-    id: 3,
-    title: 'UI/UX Design',
-    description:"At CodeSphere Studios, we understand that an outstanding user interface (UI) and user experience (UX) are critical to the success of any digital product. Our  team is dedicated to creating intuitive, engaging, and seamless experiences that not only meet but exceed user expectations. By focusing on the user journey, we ensure your product is both beautiful and functional.",
-    iconClass: 'icon-04',
-   
-    link: '/services/details'
-  },
+{
+  "id": 3,
+  "title": "UI/UX Design",
+  "description": "At CodeSphere Studios, we understand that an outstanding user interface (UI) and user experience (UX) are critical to the success of any digital product. Our expert team is dedicated to creating intuitive, engaging, and seamless experiences that not only meet but exceed user expectations. By focusing on the complete user journey, we ensure your product is both beautiful, functional, and delightfully user-friendly.",
+  "iconClass": "icon-04",
+  "link": "/services/details"
+}
+,
     {
     id: 4,
     title: 'Web Security',
@@ -42,15 +42,15 @@ const services = ref([
    
     link: '/services/details'
   },
-   {
-    id: 6,
-    title: 'Software Consulting',
-description: "Expert Guidance for Your Projects\nOur software consulting services are designed to provide you with the expertise and guidance you need to succeed.\nWhether you need help with project management, software architecture, or technology strategy, our team of experienced consultants is here to help.",
+{
+  "id": 6,
+  "title": "Software Consulting",
+  "description": "Our software consulting services are designed to provide you with the practical expertise and strategic guidance you need to succeed.\nWhether you need help with project management, software architecture, system integration, or long-term technology strategy, our team of experienced consultants is here to help.",
+  "iconClass": "icon-07",
+  "link": "/services/details"
+}
 
-    iconClass: 'icon-07',
-   
-    link: '/services/details'
-  },
+
 ])
 </script>
 
@@ -71,10 +71,10 @@ description: "Expert Guidance for Your Projects\nOur software consulting service
               <i :class="item.iconClass"></i>
             </div>
             <div class="content">
-              <h3 class="heading-font"><NuxtLink to="/services/details">
-                {{ item.title || 'N/A' }}</NuxtLink></h3>
+              <h3 class="heading-font">
+                {{ item.title || 'N/A' }}</h3>
               <p>{{ item.description }}</p>
-              <NuxtLink :to="item.link" class="link-btn">Read More <span><i class="icon-arrow-right"></i></span></NuxtLink>
+             
             </div>
           </div>
         </div>

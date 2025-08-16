@@ -3,11 +3,12 @@ import { NuxtLink } from '#components';
 import { services } from '~/data/services'
 </script>
 
+
 <template>
-  <section class="Service-details-section pt-5 fix">
+  <section class="Service-details-section  fix">
     <div class="container">
        <div class="section-title text-center">
-        <h2 class="wow fadeInUp pt-5" data-wow-delay=".3s">Our Services Domain</h2>
+        <h2 class="wow fadeInUp" data-wow-delay=".3s">Our Services Domain</h2>
         <p class="mt-3 wow fadeInUp" data-wow-delay=".5s">
         Our Services domain delivers tailored solutions to drive growth, efficiency, and innovation.
           
@@ -39,12 +40,21 @@ import { services } from '~/data/services'
           </div>
         </div>
       </div>
+
+
+       <div class="section-title pt-5 pb-5 text-center">
+        <h2 class="wow fadeInUp" data-wow-delay=".3s">Empowering Your Business – Our Services</h2>
+        <p class="mt-3 wow fadeInUp" data-wow-delay=".5s">
+        At Codesphere Studios, we go beyond providing our cutting-edge <strong>SaaS solutions —</strong> we also deliver tailored services to meet your unique business needs.
+
+Use Our SaaS Products: Benefit from our ready-to-use, scalable software designed to streamline your operations, enhance productivity, and grow your business.
+
+Custom Services for Your Business: Have a specific idea or internal need? We offer end-to-end development, customization, and consulting services to bring your vision to life — just the way you want it.
+
+Whether you're adopting our platform or building your own, we're here to support <br/> your success every step of the way.
+          
+        </p>
+      </div>
     </div>
   </section>
 </template>
-
-<style scoped>
-.heading{
-  font-size: 21px;
-}
-</style>

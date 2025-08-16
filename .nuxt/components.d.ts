@@ -71,6 +71,7 @@ interface _GlobalComponents {
     'SectionsServiceSectionOne': typeof import("../components/sections/ServiceSectionOne.vue")['default']
     'SectionsServiceSectionThree': typeof import("../components/sections/ServiceSectionThree.vue")['default']
     'SectionsServiceSectionTwo': typeof import("../components/sections/ServiceSectionTwo.vue")['default']
+    'SectionsServicesDomain': typeof import("../components/sections/ServicesDomain.vue")['default']
     'SectionsShopCartSection': typeof import("../components/sections/ShopCartSection.vue")['default']
     'SectionsShopDetailsSection': typeof import("../components/sections/ShopDetailsSection.vue")['default']
     'SectionsShopPageSection': typeof import("../components/sections/ShopPageSection.vue")['default']
@@ -165,6 +166,7 @@ interface _GlobalComponents {
     'LazySectionsServiceSectionOne': LazyComponent<typeof import("../components/sections/ServiceSectionOne.vue")['default']>
     'LazySectionsServiceSectionThree': LazyComponent<typeof import("../components/sections/ServiceSectionThree.vue")['default']>
     'LazySectionsServiceSectionTwo': LazyComponent<typeof import("../components/sections/ServiceSectionTwo.vue")['default']>
+    'LazySectionsServicesDomain': LazyComponent<typeof import("../components/sections/ServicesDomain.vue")['default']>
     'LazySectionsShopCartSection': LazyComponent<typeof import("../components/sections/ShopCartSection.vue")['default']>
     'LazySectionsShopDetailsSection': LazyComponent<typeof import("../components/sections/ShopDetailsSection.vue")['default']>
     'LazySectionsShopPageSection': LazyComponent<typeof import("../components/sections/ShopPageSection.vue")['default']>
@@ -265,6 +267,7 @@ export const SectionsServiceSection: typeof import("../components/sections/Servi
 export const SectionsServiceSectionOne: typeof import("../components/sections/ServiceSectionOne.vue")['default']
 export const SectionsServiceSectionThree: typeof import("../components/sections/ServiceSectionThree.vue")['default']
 export const SectionsServiceSectionTwo: typeof import("../components/sections/ServiceSectionTwo.vue")['default']
+export const SectionsServicesDomain: typeof import("../components/sections/ServicesDomain.vue")['default']
 export const SectionsShopCartSection: typeof import("../components/sections/ShopCartSection.vue")['default']
 export const SectionsShopDetailsSection: typeof import("../components/sections/ShopDetailsSection.vue")['default']
 export const SectionsShopPageSection: typeof import("../components/sections/ShopPageSection.vue")['default']
@@ -359,6 +362,7 @@ export const LazySectionsServiceSection: LazyComponent<typeof import("../compone
 export const LazySectionsServiceSectionOne: LazyComponent<typeof import("../components/sections/ServiceSectionOne.vue")['default']>
 export const LazySectionsServiceSectionThree: LazyComponent<typeof import("../components/sections/ServiceSectionThree.vue")['default']>
 export const LazySectionsServiceSectionTwo: LazyComponent<typeof import("../components/sections/ServiceSectionTwo.vue")['default']>
+export const LazySectionsServicesDomain: LazyComponent<typeof import("../components/sections/ServicesDomain.vue")['default']>
 export const LazySectionsShopCartSection: LazyComponent<typeof import("../components/sections/ShopCartSection.vue")['default']>
 export const LazySectionsShopDetailsSection: LazyComponent<typeof import("../components/sections/ShopDetailsSection.vue")['default']>
 export const LazySectionsShopPageSection: LazyComponent<typeof import("../components/sections/ShopPageSection.vue")['default']>

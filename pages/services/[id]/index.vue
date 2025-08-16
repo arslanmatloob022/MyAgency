@@ -2,7 +2,8 @@
 import Breadcrumb from "~/components/Breadcrumb.vue";
 import ServiceDetailsSection from "~/components/sections/ServiceDetailsSection.vue";
 import CtaSectionOne from "~/components/sections/CtaSectionOne.vue";
-
+import { useRoute } from 'vue-router'
+const route=useRoute()
 const menus = ref([
   {
     label: 'Services',
@@ -21,7 +22,7 @@ const menus = ref([
   <!-- Breadcrumb Section End -->
 
   <!-- Service Details Section Start -->
-  <ServiceDetailsSection />
+  <ServiceDetailsSection  />
   <!-- Service Details Section End -->
 
   <!--  CTA Section Start -->

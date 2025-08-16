@@ -22,12 +22,27 @@ export const menuItems = [
         //     },
         // ],
     },
+      {
+        title: "About Us",
+        link: "/about",
+      
+    },
+     {
+        title: "Services",
+        link: "/services/",
+      
+    },
+      {
+        title: "Team",
+        link: "/team",
+      
+    },
     {
-        title: "Pages",
+        title: "More",
         link: "/news",
         submenu: [
-            { title: "About Us", link: "/about" },
-            { title: "Team", link: "/team" },
+         
+            { title: "Blogs", link: "/news" },
             // { title: "Team Details", link: "/team/details" },
             // { title: "Shop", link: "/shop" },
             // { title: "Shop Cart", link: "/shop-cart" },
@@ -37,14 +52,14 @@ export const menuItems = [
             // { title: "404 Page", link: "/404" },
         ],
     },
-    {
-        title: "Services",
-        link: "/services/details",
-        submenu: [
-            { title: "Service Page", link: "/services" },
-            { title: "Service Details", link: "/services/details" },
-        ],
-    },
+    // {
+    //     title: "Services",
+    //     link: "/services/details",
+    //     submenu: [
+    //         { title: "Service Page", link: "/services" },
+    //         { title: "Service Details", link: "/services/details" },
+    //     ],
+    // },
     // {
     //     title: "Projects",
     //     link: "/project",
@@ -53,16 +68,16 @@ export const menuItems = [
     //         { title: "Project Details", link: "/project/details" },
     //     ],
     // },
+    // {
+    //     title: "Blogs",
+    //     link: "/news/details",
+    //     submenu: [
+    //         { title: "Blogs", link: "/news" },
+    //         // { title: "Blog Details", link: "/news/details" },
+    //     ],
+    // },
     {
-        title: "Blogs",
-        link: "/news/details",
-        submenu: [
-            { title: "Blogs", link: "/news" },
-            // { title: "Blog Details", link: "/news/details" },
-        ],
-    },
-    {
-        title: "Contact",
+        title: "Contact Us",
         link: "/contact",
     },
 ];

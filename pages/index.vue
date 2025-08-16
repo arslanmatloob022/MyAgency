@@ -21,7 +21,7 @@ import CtaSectionOne from "~/components/sections/CtaSectionOne.vue";
   <!-- Service Section Start -->
   <ServiceSectionOne/>
   <!-- Service Section End -->
-
+<SectionsServicesDomain/>
   <!--About Section Start -->
   <AboutSectionOne/>
   <!--About Section End -->
