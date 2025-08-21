@@ -25,7 +25,7 @@ import heroBg from "@/assets/img/hero/hero-bg.jpg";
               <!-- Information Technology is a rapidly evolving field that encompasses the study and application of computing technology to solve complex -->
              </p>
             <div class="main-button wow fadeInUp" data-wow-delay=".3s">
-              <NuxtLink to="/about"> <span class="theme-btn"> Get Started </span><span class="arrow-btn"><i class="icon-arrow-right"></i></span></NuxtLink>
+              <NuxtLink to="/contact"> <span class="theme-btn"> Get Started </span><span class="arrow-btn"><i class="icon-arrow-right"></i></span></NuxtLink>
             </div>
           </div>
         </div>

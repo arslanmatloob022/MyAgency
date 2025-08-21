@@ -1,6 +1,38 @@
 <script setup lang="ts">
-import { blogs } from '~/data/blog';
+import axios from "axios";
+import { ref, onMounted } from "vue";
 
+const blogs = ref<any[]>([]);
+const loading = ref(false);
+
+const getBlogs = async () => {
+  loading.value = true;
+  try {
+    const response = await axios.get("https://api.ibexworkhub.com/api/blog/");
+    blogs.value = response.data; // Axios wraps data in response.data
+  } catch (err) {
+    console.error("Error fetching blogs:", err);
+  } finally {
+    loading.value = false;
+  }
+};
+
+// ✅ helper function to limit words per blog
+const getLimitedContent = (content: string, wordLimit = 50) => {
+  if (!content) return "";
+
+  // Strip HTML tags → plain text
+  const text = content.replace(/<[^>]+>/g, " ");
+
+  // Limit words
+  const words = text.split(/\s+/).slice(0, wordLimit).join(" ");
+
+  return words + " ...";
+};
+
+onMounted(() => {
+  getBlogs();
+});
 </script>
 
 <template>
@@ -8,14 +40,16 @@ import { blogs } from '~/data/blog';
     <div class="container">
       <div class="row g-4">
         <div class="col-12 col-lg-12 row">
-          <div class="news-standard-wrapper row">
+
+          <p v-if="loading" class="loading" >Loading...</p>
+          <div v-else class="news-standard-wrapper row">
             <div
               v-for="blog in blogs"
               :key="blog.id"
               class="news-standard-items col-lg-12"
             >
-              <div class="thumb">
-                <img :src="blog.image" alt="img" />
+              <div class="thumb" style="height: 300px;width:fit-content;">
+                <img :src="blog.main_image" alt="img"  />
               </div>
               <div class="content">
                 <ul class="post-cat">
@@ -23,9 +57,13 @@ import { blogs } from '~/data/blog';
                     <i class="fa-regular fa-user"></i>
                     By Admin
                   </li>
-                  <li>
-                    <i class="fa-regular fa-comments"></i>
-                    0 Comments
+                   <li>
+                    <i class="fa-solid fa-calendar-days"></i>
+                {{ new Date(blog.created_at).toLocaleDateString("en-US", { 
+  year: "numeric", 
+  month: "short", 
+  day: "numeric" 
+}) }}
                   </li>
                 </ul>
                 <h3>
@@ -33,7 +71,8 @@ import { blogs } from '~/data/blog';
                     {{ blog.title }}
                   </NuxtLink>
                 </h3>
-                <p>{{ blog.description }}</p>
+                <div>{{ getLimitedContent(blog.content) }}</div>
+                
                 <div class="main-button">
                   <NuxtLink :to="`/news/${blog.id}`">
                     <span class="theme-btn">Read More</span>
@@ -53,85 +92,7 @@ import { blogs } from '~/data/blog';
           </div>
         </div>
 
-        <!-- <div class="col-12 col-lg-4">
-        
-          <div class="main-sidebar sticky-style">
-            <div class="single-sidebar-widget">
-              <div class="wid-title">
-                <h4>Search</h4>
-              </div>
-              <div class="search-widget">
-                <form action="#">
-                  <input type="text" placeholder="Search here" />
-                  <button type="submit">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                  </button>
-                </form>
-              </div>
-            </div>
-
-            <div class="single-sidebar-widget">
-              <div class="wid-title">
-                <h4>All Services</h4>
-              </div>
-              <div class="news-widget-categories">
-                <ul>
-                  <li><NuxtLink to="/news/1">Digital Agency</NuxtLink> <span>(7)</span></li>
-                  <li><NuxtLink to="/news/2">Business</NuxtLink> <span>(4)</span></li>
-                  <li class="active"><NuxtLink to="/news/3">Digital Product</NuxtLink> <span>(5)</span></li>
-                  <li><NuxtLink to="/news/2">Social Marketing</NuxtLink> <span>(3)</span></li>
-                  <li><NuxtLink to="/news/1">System</NuxtLink> <span>(6)</span></li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="single-sidebar-widget">
-              <div class="wid-title">
-                <h3>Recent Post</h3>
-              </div>
-              <div class="recent-post-area">
-                <div class="recent-items" v-for="blog in blogPosts" :key="blog.id">
-                  <div class="recent-thumb">
-                    <img :src="blog.image" alt="img" />
-                  </div>
-                  <div class="recent-content">
-                    <ul>
-                      <li>
-                        <i class="fa-solid fa-calendar-days"></i>
-                        14 Feb, 2025
-                      </li>
-                    </ul>
-                    <h6>
-                      <NuxtLink :to="`/news/${blog.id}`">
-                        {{ blog.title }}
-                      </NuxtLink>
-                    </h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="single-sidebar-widget">
-              <div class="wid-title">
-                <h4>Tag</h4>
-              </div>
-              <div class="news-widget-categories">
-                <div class="tagcloud">
-                  <NuxtLink to="/news/1">Security</NuxtLink>
-                  <NuxtLink to="/news/2">Business</NuxtLink>
-                  <NuxtLink to="/news/3">Digital</NuxtLink>
-                  <NuxtLink to="/news/2">Technology</NuxtLink>
-                  <NuxtLink to="/news/1">Change</NuxtLink>
-                  <NuxtLink to="/news/3">Video</NuxtLink>
-                  <NuxtLink to="/news/2">UI/UX Design</NuxtLink>
-                  <NuxtLink to="/news/1">Startup</NuxtLink>
-                  <NuxtLink to="/news/3">Services</NuxtLink>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
+       
       </div>
     </div>
   </section>
@@ -139,4 +100,8 @@ import { blogs } from '~/data/blog';
 
 <style scoped>
 /* Add any styles you wish */
+.loading{
+  font-size: 30px;
+  text-align: center;
+}
 </style>

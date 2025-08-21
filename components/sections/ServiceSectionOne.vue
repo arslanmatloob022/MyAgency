@@ -5,7 +5,7 @@ const services = ref([
   {
     id: 1,
     title: 'Website Development',
-    description: 'At CodeSphere Studios, we create stunning, responsive websites that provide a seamless user experience across all devices.We specialize in creating high-performance, scalable, and secure web applications that meet the unique needs of our clients. We are team of experts uses the latest technologies and best practices to ensure your website is fast, secure, and user-friendly.',
+    description: 'At Tekvion Systems, we create stunning, responsive websites that provide a seamless user experience across all devices.We specialize in creating high-performance, scalable, and secure web applications that meet the unique needs of our clients. We are team of experts uses the latest technologies and best practices to ensure your website is fast, secure, and user-friendly.',
     iconClass: 'icon-02',
  
     link: '/services/details'
@@ -21,7 +21,7 @@ const services = ref([
 {
   "id": 3,
   "title": "UI/UX Design",
-  "description": "At CodeSphere Studios, we understand that an outstanding user interface (UI) and user experience (UX) are critical to the success of any digital product. Our expert team is dedicated to creating intuitive, engaging, and seamless experiences that not only meet but exceed user expectations. By focusing on the complete user journey, we ensure your product is both beautiful, functional, and delightfully user-friendly.",
+  "description": "At Tekvion Systems, we understand that an outstanding user interface (UI) and user experience (UX) are critical to the success of any digital product. Our expert team is dedicated to creating intuitive, engaging, and seamless experiences that not only meet but exceed user expectations. By focusing on the user journey, we ensure your product is both  functional, and  user-friendly.",
   "iconClass": "icon-04",
   "link": "/services/details"
 }
@@ -29,7 +29,7 @@ const services = ref([
     {
     id: 4,
     title: 'Web Security',
-    description:"At CodeSphere Studios, we understand the critical importance of web security in today's digital landscape. Our dedicated team of security experts works tirelessly to safeguard your web applications and digital assets from potential threats, ensuring a secure, reliable and trustworthy online presence for your business.",
+    description:"At Tekvion Systems, we understand the critical importance of web security in today's digital landscape. Our dedicated team of security experts works tirelessly to safeguard your web applications and digital assets from potential threats, ensuring a secure, reliable and trustworthy online presence for your business.",
     iconClass: 'icon-05',
    
     link: '/services/details'
@@ -37,7 +37,7 @@ const services = ref([
     {
     id: 5,
     title: 'Mobile App Development',
-    description: "At CodeSphere Studios, we specialize in crafting cutting-edge mobile applications that deliver exceptional user experiences. Our team of expert developers  strategists work collaboratively to bring your mobile app ideas to life, ensuring that they are not only functional but also engaging and visually appealing.",
+    description: "At Tekvion Systems, we specialize in crafting cutting-edge mobile applications that deliver exceptional user experiences. Our team of expert developers  strategists work collaboratively to bring your mobile app ideas to life, ensuring that they are not only functional but also engaging and visually appealing.",
     iconClass: 'icon-03',
    
     link: '/services/details'

@@ -38,7 +38,7 @@ const menus = ref([
   <!-- Pricing Section End -->
 
   <!-- Contact Section Start -->
-  <ContactSectionThree />
+  <!-- <ContactSectionThree /> -->
   <!-- Contact Section End -->
 
   <!-- Faq Section Start -->

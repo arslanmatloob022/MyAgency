@@ -10,21 +10,21 @@
             <div class="testimonial-logo wow fadeInUp" data-wow-delay=".3s">
               <div class="logo-image">
                 
-                <img   src="/Logos/DarkLogos/CSDarkShortL.png" style="width: 200px;height: 97px"
-                  alt="code_sphere_studios_logo">
+                <img   src="/Logos/new_logos/3.png" style="width: 200px;height: 97px"
+                  alt="Tekvion_system_logo">
               </div>
             </div>
             <div class="testimonial-box wow fadeInUp" data-wow-delay=".5s">
               <div class="testimonial-content">
                 <div class="icon">
-                  <img src="@/assets/img/icon/29.svg" alt="img">
+                  <img src="@/assets/img/icon/29.svg" alt="testimonial_img">
                 </div>
                 <h3>Tomorrow Just Informs</h3>
               </div>
               <p> Accelerate innovation with world-class tech teams — delivering excellence, speed, and reliability.
                         </p>
               <div class="fly-image">
-                <img src="@/assets/img/testimonial/05.png" alt="img">
+                <img src="@/assets/img/testimonial/05.png" alt="testimonial_img">
               </div>
             </div>
           </div>

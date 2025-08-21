@@ -1,24 +1,46 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router'
-import { blogs } from '~/data/blog'
+
+import axios from "axios";
+import { blogs } from '~/data/blog';
 
 const route = useRoute()
 const blogId = Number(route.params.id)
 
 // Find the blog with matching ID
-const blog = blogs.find(item => item.id === blogId)
+// const blog = blogs.find(item => item.id === blogId)
+
+const blog = ref([]);
+const loading = ref(false);
+
+const getBlogDetail = async () => {
+  loading.value = true;
+  try {
+    const response = await axios.get(`https://api.ibexworkhub.com/api/blog/${route.params.id}`);
+    blog.value = response.data; // Axios wraps data in response.data
+  } catch (err) {
+    console.error("Error fetching blogs:", err);
+  } finally {
+    loading.value = false;
+  }
+};
+
+onMounted(() => {
+  getBlogDetail();
+});
 </script>
 
 <template>
 <section class="news-details-section section-padding">
-  <div class="container" v-if="blog">
+  <p class="loading" v-if="loading">Loading ...</p>
+  <div class="container" v-else>
     <div class="news-details-wrapper">
       <div class="row g-4">
         <div class="col-12 col-lg-12">
           <div class="news-post-details">
             <div class="single-news-post">
-              <div class="post-featured-thumb">
-                <img :src="blog.image" alt="Featured Image" 
+              <div class="post-featured-thumb" style="height: 300px;width:fit-content;" >
+                <img :src="blog.main_image" alt="Blog_Image" 
                  />
               </div>
               <div class="post-content">
@@ -29,7 +51,11 @@ const blog = blogs.find(item => item.id === blogId)
                   </li>
                   <li>
                     <i class="fa-solid fa-calendar-days"></i>
-                    {{ blog.date }}
+                {{ new Date(blog.created_at).toLocaleDateString("en-US", { 
+  year: "numeric", 
+  month: "short", 
+  day: "numeric" 
+}) }}
                   </li>
                   <li>
                     <i class="fa-solid fa-tag"></i>
@@ -38,11 +64,11 @@ const blog = blogs.find(item => item.id === blogId)
                 </ul>
 
                 <h3>{{ blog.title }}</h3>
-                <!-- <p class="fst-italic text-muted mb-2">{{ blog.tagline }}</p>  -->
-                <p class="mb-3">{{ blog.description }}</p>
+              <div v-html="blog.content"></div>
+                
 
-                <h4>{{ blog.fullContentHeading }}</h4>
-                <div class="mt-4 mb-5" v-html="blog.fullContent"></div>
+                <!-- <h4>{{ blog.fullContentHeading }}</h4>
+                <div class="mt-4 mb-5" v-html="blog.fullContent"></div> -->
 
                 <!-- Dynamic Blog Images Loop -->
                 <!-- <div class="row g-4" v-if="blog.blogImages && blog.blogImages.length">
@@ -57,11 +83,11 @@ const blog = blogs.find(item => item.id === blogId)
                   </div>
                 </div> -->
 
-                <div class="hilight-text mt-4">
+                <!-- <div class="hilight-text mt-4">
                   <p>
                   {{ blog.tagline }}
                   </p>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -104,7 +130,7 @@ const blog = blogs.find(item => item.id === blogId)
     </div>
   </div>
 
-  <div v-else>
+  <div v-if="!loading && !blogs" class="loading">
     <p>Blog not found.</p>
   </div>
 </section>
@@ -112,5 +138,9 @@ const blog = blogs.find(item => item.id === blogId)
 </template>
 
 <style scoped>
+.loading{
+  font-size: 30px;
+  text-align: center;
+}
 /* Add any styles you want */
 </style>

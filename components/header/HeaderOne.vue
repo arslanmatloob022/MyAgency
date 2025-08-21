@@ -14,7 +14,7 @@ const { isOffcanvasOpen, isOverlayOpen, isBodyOverlayOpen, openOffcanvas } =
             <li>
               <i class="far fa-envelope"></i>
               <a href="mailto:codesphere@gmail.com" class="link"
-                >codesphere@gmail.com</a
+                >careers@tekvionsystems.com</a
               >
             </li>
             <li>
@@ -32,17 +32,17 @@ const { isOffcanvasOpen, isOverlayOpen, isBodyOverlayOpen, openOffcanvas } =
             <div class="logo">
               <NuxtLink to="/"   class="header-logo">
                 <img
-                  src="/Logos/LogoWhiteGreen/BCodeSphereS.png"
-                  alt="code_sphere_studios_logo"
-                  height="70px"
+                  src="/Logos/new_logos/3.png"
+                  alt="Tekvion_system_logo"
+                  height="90px"
                   
                 />
               </NuxtLink>
               <NuxtLink to="/" class="header-logo-2">
                  <img
-                  src="/Logos/DarkLogos/CSDarkShortL.png"
-                  alt="code_sphere_studios_logo"
-                  height="50px"
+                  src="/Logos/new_logos/3.png"
+                  alt="Tekvion_system_logo"
+                  height="80px"
                   
                 />
               </NuxtLink>

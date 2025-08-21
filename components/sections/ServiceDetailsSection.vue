@@ -18,7 +18,7 @@ const service = computed(() => services.find(s => s.id === serviceId))
   <section class="Service-details-section section-padding fix" v-if="service">
     <div class="container">
       <div class="sertvice-details-wrapper">
-        <div class="details-image" style="display: flex;justify-content: center;">
+        <div class="details-image" style="display: flex;justify-content: start;">
           <img :src="service.detailImage" :alt="`${service.title} image`" style="height: 80px;width: 80px;" />
         </div>
         <div class="service-details-content">

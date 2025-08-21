@@ -15,17 +15,19 @@
           class="footer-logo wow fadeInUp"
           data-wow-delay=".3s"
         >
-              <img height="60px" width="120px"  src="/Logos/DarkLogos/CSDarkShortL.png"
-                  alt="code_sphere_studios_logo">
+              <img height="80px"   src="/Logos/new_logos/3.png"
+                  alt="Tekvion_system_logo">
         </NuxtLink>
         <div
           class="social-icon d-flex align-items-center wow fadeInUp"
           data-wow-delay=".5s"
         >
-          <a href="https://www.facebook.com/arslan.raajput.1" target="_blank"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://x.com/blackshadowik?t=yDf4z4OXrLR7vJRbeKLyyQ&s=09" target="_blank" ><i class="fab fa-twitter"></i></a>
-          <a href="www.linkedin.com/in/raoarslanmatloob" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-          <a href=" https://www.instagram.com/i_arslan_rao?igsh=cmV2aHQxdGxhcjhn" target="_blank"><i class="fab fa-instagram"></i></a>
+<a href="https://www.linkedin.com/in/tekvion-systems-78916a37b" target="_blank">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+  <a href="https://www.instagram.com/tekvion-systems" target="_blank">
+    <i class="fab fa-instagram"></i>
+  </a>
         </div>
       </div>
       <div class="footer-widget-wrapper">
@@ -43,8 +45,8 @@
                   <li>
                     Email
                     <span>
-                      <a href="mailto:codesphere@gmail.com"
-                        >codesphere@gmail.com</a
+                      <a 
+                        >careers@tekvionsystems.com</a
                       >
                     </span>
                   </li>
@@ -112,17 +114,18 @@
                  We're always ready to listen and help bring your ideas to life.
 Reach out today — let's build something great together.
                 </p>
-                <div class="footer-input">
-                  <input type="email" placeholder="Your email..." />
-                  <button class="newsletter-button" type="submit">
-                    <i class="fa-solid fa-paper-plane"></i>
-                  </button>
-                </div>
+                <div class="main-button footer-input wow fadeInUp" data-wow-delay=".7s">
+              <NuxtLink to="/contact"> <span class="theme-btn"> Contact Us </span><span class="arrow-btn"><i class="icon-arrow-right"></i></span></NuxtLink>
+            </div>
+               
                 <div class="social-icon d-flex align-items-center">
-                  <a href="https://www.facebook.com/arslan.raajput.1"><i class="fab fa-facebook-f"></i></a>
-                  <a href="https://x.com/blackshadowik?t=yDf4z4OXrLR7vJRbeKLyyQ&s=09"><i class="fab fa-twitter"></i></a>
-                  <a href="www.linkedin.com/in/raoarslanmatloob"><i class="fab fa-linkedin-in"></i></a>
-                  <a href="https://www.instagram.com/i_arslan_rao?igsh=cmV2aHQxdGxhcjhn"><i class="fab fa-instagram"></i></a>
+                 
+                 <a href="https://www.linkedin.com/in/tekvion-systems-78916a37b" target="_blank">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+  <a href="https://www.instagram.com/tekvionsystems/" target="_blank">
+    <i class="fab fa-instagram"></i>
+  </a>
                 </div>
               </div>
             </div>
@@ -134,14 +137,14 @@ Reach out today — let's build something great together.
           class="footer-wrapper d-flex align-items-center justify-content-between"
         >
           <p class="wow fadeInLeft color-2" data-wow-delay=".3s">
-            © All Copyright 2025 by <NuxtLink to="/">CodeSphere</NuxtLink>
+            © All Copyright 2025 by <NuxtLink to="/">Tekvion System</NuxtLink>
           </p>
           <ul class="footer-menu wow fadeInRight" data-wow-delay=".5s">
             <li>
-              <NuxtLink to="/contact"> Terms & Condition </NuxtLink>
+              <NuxtLink to="/services"> Services </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/contact"> Privacy Policy </NuxtLink>
+              <NuxtLink to="/team"> Team </NuxtLink>
             </li>
             <li>
               <NuxtLink to="/contact"> Contact Us </NuxtLink>

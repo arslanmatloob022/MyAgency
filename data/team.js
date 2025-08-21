@@ -5,12 +5,13 @@ export const teamMembers = [
         description:
             "Leading strategic direction and innovation in software development and technology solutions.",
     },
-    {
-    name: "Huraiza Hussan",
-    role: "App Developer",
-    description:
-      "Develops cross-platform mobile applications with seamless performance and engaging user experiences.",
-  },
+  {
+  name: "Hammad Ahmad",
+  role: "DevOps Engineer",
+  description:
+    "Builds and maintains scalable CI/CD pipelines, automates infrastructure, and ensures reliable system performance with modern DevOps practices.",
+}
+,
   {
     name: "Syd Abdullah Hussain",
     role: "React, Next Developer",
@@ -18,7 +19,7 @@ export const teamMembers = [
       "Builds dynamic web applications using React and Next.js, focusing on performance and scalability.",
   },
   {
-    name: "Muhammad Abdullah",
+    name: "Rizwan Rasool",
     role: "UI/UX Designer",
     description:
       "Crafts intuitive user interfaces and exceptional user experiences with creative design solutions.",

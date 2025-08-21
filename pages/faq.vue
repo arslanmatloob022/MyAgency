@@ -21,7 +21,7 @@ const menus = ref([
   <!-- Faq Section Start -->
 
   <!-- Contact Section Start -->
-  <ContactSectionTwo />
+  <!-- <ContactSectionTwo /> -->
   <!-- Contact Section End -->
 
   <!--  CTA Section Start -->

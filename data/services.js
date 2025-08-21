@@ -72,7 +72,7 @@
   {
     id: '7',
     title: 'Asset Mgmt. Sys.',
-    description: 'Monitor, track, and optimize the lifecycle of assets to maximize operational efficiency.',
+    description: 'Monitor, track, and optimize the lifecycle of assets to maximize business operational efficiency.',
     icon: '/services-icons/asset-management.png',
     detailTitle: 'Full Asset Lifecycle Management, Made Simple',
     detailText: 'An Asset Management System tracks and optimizes the entire lifecycle of assets, from acquisition to disposal. Businesses can monitor usage, schedule maintenance, and manage depreciation to maximize asset value and reduce losses. Features like QR or barcode tagging improve asset visibility and prevent misplacement. By ensuring better utilization and extending the lifespan of equipment, the system enhances operational efficiency.',

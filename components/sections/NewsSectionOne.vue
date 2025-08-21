@@ -1,7 +1,28 @@
 <script setup lang="ts">
-import { blogs } from '~/data/blog'
 
-const topBlogs = blogs.slice(0, 3)
+import axios from "axios";
+import { ref, onMounted } from "vue";
+
+const blogs = ref<any[]>([]);
+const loading = ref(false);
+
+const getBlogs = async () => {
+  loading.value = true;
+  try {
+    const response = await axios.get("https://api.ibexworkhub.com/api/blog/");
+    // Take only the first 3 blogs
+    blogs.value = response.data?.slice(0, 3);
+  } catch (err) {
+    console.error("Error fetching blogs:", err);
+  } finally {
+    loading.value = false;
+  }
+};
+
+onMounted(() => {
+  getBlogs();
+});
+
 </script>
 
 <template>
@@ -19,13 +40,13 @@ const topBlogs = blogs.slice(0, 3)
       <div class="row">
         <div
           class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-          v-for="(blog, index) in topBlogs"
+          v-for="(blog, index) in blogs"
           :key="blog.id"
           :data-wow-delay="`.${3 + index * 2}s`"
         >
           <div class="news-box-items">
             <div class="news-img">
-              <img :src="blog.image" :alt="blog.title" style="height: 250px;" />
+              <img :src="blog.main_image" :alt="blog.title" style="height: 250px;" />
             </div>
             <div class="news-content">
               <ul class="date-list">
@@ -35,7 +56,11 @@ const topBlogs = blogs.slice(0, 3)
                 </li>
                 <li class="font">
                   <i class="fa-solid fa-calendar-days"></i>
-                  {{ blog.date }}
+                       {{ new Date(blog.created_at).toLocaleDateString("en-US", { 
+  year: "numeric", 
+  month: "short", 
+  day: "numeric" 
+}) }}
                 </li>
               </ul>
               <h3 class="font">

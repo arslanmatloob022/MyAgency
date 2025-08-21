@@ -22,7 +22,7 @@ const menus = ref([
   <!-- Team Section End -->
 
   <!-- Contact Section Start -->
-  <ContactSectionTwo />
+  <!-- <ContactSectionTwo /> -->
   <!-- Contact Section End -->
 
   <!--  CTA Section Start -->

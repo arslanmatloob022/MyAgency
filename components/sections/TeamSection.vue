@@ -3,8 +3,8 @@ import { ref } from 'vue'
 
 const teamMembers = ref([
   {
-    name: "Huraiza Hussan",
-    role: "App Developer",
+    name: "Hammad Ahmad",
+    role: "DevOps Engineer",
     image: "/team/01.png",
     socialLinks: {
       facebook: "https://www.facebook.com/arslan.raajput.1",
@@ -25,7 +25,7 @@ const teamMembers = ref([
     },
   },
   {
-    name: "Muhammad Abdullah",
+    name: "Rizwan Rasool",
     role: "UI/UX Designer",
     image: "/team/03.png",
     socialLinks: {
@@ -128,12 +128,12 @@ const teamMembers = ref([
                {{ member.name }}
               </h3>
               <p>{{ member.role }}</p>
-              <div class="social-icon d-flex align-items-center">
+              <!-- <div class="social-icon d-flex align-items-center">
                 <a :href="member.socialLinks.facebook"><i class="fab fa-facebook-f"></i></a>
                 <a :href="member.socialLinks.twitter"><i class="fab fa-twitter"></i></a>
                 <a :href="member.socialLinks.linkedin"><i class="fab fa-linkedin-in"></i></a>
                 <a :href="member.socialLinks.instagram"><i class="fab fa-instagram"></i></a>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
