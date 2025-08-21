@@ -30,8 +30,7 @@ export { requestIdleCallback, cancelIdleCallback } from '#app/compat/idle-callba
 export { setInterval } from '#app/compat/interval';
 export { useOffcanvas } from '../composables/useOffcanvas';
 export { useStickyHeader } from '../composables/useStickyHeader';
-export { useSwiper } from '../node_modules/nuxt-swiper/dist/runtime/composables/useSwiper.client';
+export { useSwiper } from '../node_modules/.pnpm/nuxt-swiper@2.0.1_magicast@0.3.5/node_modules/nuxt-swiper/dist/runtime/composables/useSwiper.client';
 export { useSettingsStore } from '../stores/settings';
-export { defineStore, acceptHMRUpdate, usePinia, storeToRefs } from '../node_modules/@pinia/nuxt/dist/runtime/composables';
-export { useNuxtDevTools } from '../node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
-export { definePageMeta } from '../node_modules/nuxt/dist/pages/runtime/composables';
+export { defineStore, acceptHMRUpdate, usePinia, storeToRefs } from '../node_modules/.pnpm/@pinia+nuxt@0.10.1_magicast@0.3.5_pinia@3.0.2_typescript@5.8.3_vue@3.5.14_typescript@5.8.3__/node_modules/@pinia/nuxt/dist/runtime/composables';
+export { definePageMeta } from '../node_modules/.pnpm/nuxt@3.17.4_@parcel+watcher@2.5.1_@types+node@22.15.21_db0@0.3.2_ioredis@5.6.1_magicast@0.3.5_rvs5nu5xuljfaetczh74p6djze/node_modules/nuxt/dist/pages/runtime/composables';
