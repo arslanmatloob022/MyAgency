@@ -45,7 +45,7 @@ import { services } from '~/data/services'
        <div class="section-title pt-5 pb-5 text-center">
         <h2 class="wow fadeInUp" data-wow-delay=".3s">Empowering Your Business – Our Services</h2>
         <p class="mt-3 wow fadeInUp" data-wow-delay=".5s">
-        At Codesphere Studios, we go beyond providing our cutting-edge <strong>SaaS solutions —</strong> we also deliver tailored services to meet your unique business needs.
+        At Tekvion Systems Studios, we go beyond providing our cutting-edge <strong>SaaS solutions —</strong> we also deliver tailored services to meet your unique business needs.
 
 Use Our SaaS Products: Benefit from our ready-to-use, scalable software designed to streamline your operations, enhance productivity, and grow your business.
 

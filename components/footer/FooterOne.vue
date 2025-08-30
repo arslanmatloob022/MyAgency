@@ -46,7 +46,7 @@
                     Email
                     <span>
                       <a 
-                        >careers@tekvionsystems.com</a
+                        >info@tekvionsystems.com</a
                       >
                     </span>
                   </li>

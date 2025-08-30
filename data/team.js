@@ -1,7 +1,7 @@
 export const teamMembers = [
     {
         name: "Arslan Matloob",
-        role: "CEO & Founder , CodeSphere",
+        role: "CEO & Founder , Tekvion Systems",
         description:
             "Leading strategic direction and innovation in software development and technology solutions.",
     },

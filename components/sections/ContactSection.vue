@@ -106,7 +106,7 @@ const handleSubmit = async () => {
                   <div class="content">
                     <h6>
                       <a href="mailto:jessica.hanson@example.com">
-                        careers@tekvionsystems.com
+                        info@tekvionsystems.com
                       </a>
                     </h6>
                   </div>

@@ -43,7 +43,7 @@
           </div>
           <div class="col-lg-6">
             <div class="about-img">
-              <img src="@/assets/img/about/about1.jpg" alt="img" class="wow img-custom-anim-left">
+              <img src="@/assets/img/about/about2.jpg" alt="img" class="wow img-custom-anim-left">
               <div class="shape-box float-bob-y">
                 <img src="@/assets/img/about/shape-box-2.png" alt="img">
               </div>

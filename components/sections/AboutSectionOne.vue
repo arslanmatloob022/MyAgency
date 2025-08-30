@@ -16,7 +16,7 @@
           </div>
           <div class="about-content wow fadeInUp" data-wow-delay=".5s">
             <p>
-              At CodeSphere, we help businesses thrive in the digital age.Our team crafts websites, mobile apps, and software strategies that truly work.
+              At Tekvion Systems, we help businesses thrive in the digital age.Our team crafts websites, mobile apps, and software strategies that truly work.
               
             </p>
             <NuxtLink to="/services" class="circle-box">

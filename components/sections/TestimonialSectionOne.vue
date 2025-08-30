@@ -71,7 +71,7 @@
                 <h3>Software Solutions Pro</h3>
                 <p>
 
-                  “CodeSpher didn’t just build our app—they brought it to life.<br> Their attention to detail and creative input made all the difference.”
+                  “Tekvion Systems didn’t just build our app—they brought it to life.<br> Their attention to detail and creative input made all the difference.”
                   <br>
 — Ayesha Khan, CEO, EduLink
                  

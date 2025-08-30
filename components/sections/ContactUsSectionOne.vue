@@ -124,7 +124,8 @@ const handleSubmit = async () => {
                     <i class="fa-solid fa-envelope"></i>
                     Email
                   </span>
-                  <a href="mailto:codesphere@gmail.com">careers@tekvionsystems.com</a>
+                  <a href="mailto:codesphere@gmail.com">info@tekvionsystems.com
+</a>
                 </li>
               </ul>
             </div>
@@ -141,7 +142,7 @@ const handleSubmit = async () => {
               v-model="full_name"
               name="name"
               id="name"
-              placeholder="Your Name"
+              placeholder=""
               required
             />
           </div>
@@ -155,7 +156,7 @@ const handleSubmit = async () => {
               type="email"
               v-model="email"
               id="email"
-              placeholder="Email"
+              placeholder=""
               required
             />
           </div>
@@ -169,7 +170,7 @@ const handleSubmit = async () => {
               type="text"
               v-model="company_name"
               id="company"
-              placeholder="Company Name"
+              placeholder=""
             />
           </div>
         </div>
@@ -182,7 +183,7 @@ const handleSubmit = async () => {
               type="tel"
               v-model="phone_number"
               id="phone"
-              placeholder="Phone Number"
+              placeholder=""
             />
           </div>
         </div>
@@ -194,7 +195,7 @@ const handleSubmit = async () => {
             <textarea
               v-model="message"
               id="message1"
-              placeholder="Type Here"
+              placeholder=""
               required
             ></textarea>
           </div>

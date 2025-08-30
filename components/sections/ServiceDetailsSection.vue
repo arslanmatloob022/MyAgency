@@ -59,7 +59,7 @@ const service = computed(() => services.find(s => s.id === serviceId))
             </div> -->
           </div>
 
-          <h3>Why Partner with CodeSphere?</h3>
+          <h3>Why Partner with Tekvion Systems?</h3>
           <p>
             We build flexible, scalable systems designed to grow with your business. Our tools are built with
             user-friendly interfaces, strong security, and seamless integration capabilities.<br />

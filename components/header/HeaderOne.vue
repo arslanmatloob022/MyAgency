@@ -14,7 +14,7 @@ const { isOffcanvasOpen, isOverlayOpen, isBodyOverlayOpen, openOffcanvas } =
             <li>
               <i class="far fa-envelope"></i>
               <a href="mailto:codesphere@gmail.com" class="link"
-                >careers@tekvionsystems.com</a
+                >info@tekvionsystems.com</a
               >
             </li>
             <li>

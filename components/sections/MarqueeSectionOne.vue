@@ -58,7 +58,7 @@ import MarqueeText from "~/components/MarqueeText.vue"
               </div>
               <div class="brand-slide-element">
                 <h2 class="marqee-text">
-                  Code Sphere Studio
+                  Tekvion Systems
                 </h2>
               </div>
               <div class="brand-slide-element">

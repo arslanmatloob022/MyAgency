@@ -4,16 +4,18 @@
 
 <template>
   <section class="team-section fix section-padding pt-0 pb-0">
+
     <div class="container">
       <div class="team-wrapper">
         <div class="social-icon d-grid align-items-center">
-  <a href="https://www.linkedin.com/in/tekvion-systems-78916a37b" target="_blank">
-    <i class="fab fa-linkedin-in"></i>
-  </a>
-  <a href="https://www.instagram.com/tekvionsystems/" target="_blank">
-    <i class="fab fa-instagram"></i>
-  </a>
-</div>
+
+          <a href="https://www.linkedin.com/in/tekvion-systems-78916a37b" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.instagram.com/tekvionsystems/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
 
         <div class="row g-4 justify-content-between align-items-center">
           <div class="col-lg-6">
@@ -23,7 +25,11 @@
               </div>
               <span class="wow fadeInUp" data-wow-delay=".5s">FOUNDER</span>
               <p class="wow fadeInUp" data-wow-delay=".7s">
-               Tekvion System was founded in 2017 by Arslan Matloob, fueled by a deep passion for technology and creative problem-solving. What started as a solo venture quickly became a platform for turning ideas into digital solutions. In the early days, Tekvion System existed more as a personal initiative, with its presence limited to Arslan’s LinkedIn and social media profiles. Over time, that vision grew into a full-fledged company, driven by dedication and innovation.
+                Tekvion System was founded in 2017 by Arslan Matloob, fueled by a deep passion for technology and
+                creative problem-solving. What started as a solo venture quickly became a platform for turning ideas
+                into digital solutions. In the early days, Tekvion System existed more as a personal initiative, with
+                its presence limited to Arslan’s LinkedIn and social media profiles. Over time, that vision grew into a
+                full-fledged company, driven by dedication and innovation.
               </p>
               <ul class="nav wow fadeInUp" data-wow-delay=".3s">
                 <li class="nav-item">
@@ -89,6 +95,4 @@
   </section>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
